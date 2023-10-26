@@ -98,7 +98,7 @@ const doToast = () => {
 <template>
   <form
     id="newsletter"
-    name="motive8eNewsletter"
+    name="plveNewsletter"
     method="post"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
@@ -106,8 +106,8 @@ const doToast = () => {
     @submit.prevent="handleSubmit"
   >
     <div class="w-6 flex flex-row justify-content-center align-items-center gap-3">
-      <input type="hidden" name="form-name" value="motive8Newsletter" />
-      <div><a href="https://www.facebook.com/Motive8endurance/?ref=bookmarks" class="fa fa-facebook"></a></div>
+      <input type="hidden" name="form-name" value="peaceLoveVinoNewsletter" />
+      <div><a href="https://www.facebook.com/peacelovevino/?ref=bookmarks" class="fa fa-facebook"></a></div>
       <div class="field w-7 flex flex-column gap-3 pt-4">
         <InputText
           id="email"
@@ -130,7 +130,7 @@ const doToast = () => {
         />
       </div>
       <div>
-        <a href="https://www.instagram.com/motive8endurance" class="fa fa-instagram"></a>
+        <a href="https://www.instagram.com/peavelovevino" class="fa fa-instagram"></a>
       </div>
     </div>
   </form>
