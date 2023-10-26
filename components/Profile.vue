@@ -1,44 +1,41 @@
 <script setup lang="ts">
-import { toRefs, computed } from 'vue';
-
-interface PersonInterface {
+interface PropsInterface {
   name: string;
-  description?: string;
   email?: string;
   phone?: string;
-  image?: string;
-  class?: string;
-}
-
-interface PropsInterface {
-  person: PersonInterface;
 }
 const props = defineProps<PropsInterface>();
 
-const { person } = toRefs(props);
+const { name, email, phone } = toRefs(props);
 </script>
 
 <template>
   <div class="flex flex-column w-full justify-content-center align-content-center text-center">
-    <h1 class="sm:w-full">{{ person.name }}</h1>
-    <h4 v-if="person.description">{{ person.description }}</h4>
-    <h5 v-if="person.email" class="flex flex-column">
+    <h5 v-if="email" class="flex flex-column">
       <small>
-        <a :href="`mailto:${person.email}`">{{ person.email }}</a>
+        <a :href="`mailto:${email}`">{{ email }}</a>
       </small>
-      <small v-if="person.phone">{{ person.phone }}</small>
+      <small v-if="phone">{{ phone }}</small>
     </h5>
-    <div class="flex flex-column sm:flex-column md:flex-row gap-3 text-left py-4">
-      <div class="flex-inline sm:w-full lg:w-6" :class="person.class">
-        <img v-if="person.image" :alt="`${person.image}`" :src="person.image" class="img w-full" />
+    <div class="flex flex-column sm:flex-column md:flex-row gap-3 text-left p-4">
+      <div class="flex-inline sm:w-full md:w-6">
+        <ImageCarousel />
       </div>
       <div class="md:w-6 sm:w-full">
-        <div class="w-full sm:p-1 pt-4">
-          <ContentRenderer :value="person" />
-        </div>
+        <h2 class="sm:w-full mt-3 text-center">{{ name }}</h2>
+        <slot></slot>
       </div>
     </div>
   </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.contact-link {
+  margin-left: 140px;
+  font-size: 16px;
+
+  @media (max-width: 700px) {
+    margin-left: 0;
+  }
+}
+</style>

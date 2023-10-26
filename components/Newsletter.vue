@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useToast } from 'primevue/usetoast';
-import axios, { AxiosRequestConfig } from 'axios';
+import axios from 'axios';
 import { ref } from 'vue';
 import useVuelidate from '@vuelidate/core';
 import { required, email } from '@vuelidate/validators';
@@ -39,7 +39,7 @@ const error = ref<boolean>(false);
  */
 const handleSubmit = async (e: Event) => {
   error.value = false;
-  const axiosConfig: AxiosRequestConfig = {
+  const axiosConfig = {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
   };
 
@@ -98,7 +98,7 @@ const doToast = () => {
 <template>
   <form
     id="newsletter"
-    name="plveNewsletter"
+    name="plvNewsletter"
     method="post"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
