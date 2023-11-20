@@ -1,13 +1,12 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex flex-column p-0">
-    <div class="flex flex-wrap w-full px-4 justify-content-center">
-      <h1 class="text-center underline pb-2">Mission</h1>
-      <Mission />
-    </div>
-    <div class="parent">
-      <div class="flex w-12 p-0 main-img"></div>
+  <div class="parent">
+    <div class="flex flex-column main-img justify-content-center">
+      <h3 class="w-full main-banner font-italic mt-3 text-white">Good Things Are Coming</h3>
+      <div class="flex w-full justify-content-center gap-3">
+        <Newsletter />
+      </div>
     </div>
   </div>
 </template>
@@ -31,7 +30,7 @@
     .main-banner {
       font-size: 100px;
       text-align: center;
-
+      font-family: var(--font-family);
       @media (max-width: 700px) {
         font-size: 34px;
         margin-top: 60px !important;

@@ -22,14 +22,16 @@ colorMode.preference = 'light';
     <div id="main-container" class="mt-0">
       <div id="main-container-scroll" class="flex flex-column">
         <div class="header flex flex-wrap p-2">
-          <div class="flex flex-wrap align-items-center w-full justify-content-end md:justify-content-start">
-            <div class="flex col-12 lg:col-2">
-              <img src="/img/new_logo.png" class="logo mt-0" />
+          <div class="flex flex-row align-items-center w-full sm:justify-content-end md:justify-content-start gap-2">
+            <div class="flex col-2">
+              <img src="/img/new_logo.png" class="flex logo mt-0" />
             </div>
-            <div class="flex flex-wrap align-items-center w-full">
-              <Nav class="align-items-center justify-content-center w-full mb-1" />
+            <div class="flex col-10 w-full">
+              <News class="flex align-items-start text-center" />
             </div>
-            <News class="flex align-items-start justify-content-center text-center w-full" />
+          </div>
+          <div class="col-12 align-items-center justify-content-center">
+            <Nav class="align-items-center justify-content-center w-full mb-1" />
           </div>
         </div>
 

@@ -6,7 +6,10 @@ const { data: newsQuery } = await useAsyncData('news', () => {
 
 <template>
   <div>
-    <div v-if="newsQuery" class="news w-full p-3 mb-4 font-bold text-center">
+    <div
+      v-if="newsQuery"
+      class="news sm:w-full md:w-8 line-height-3 lg:mt-1 sm:m-1 md:m-3 flex align-items-start justify-content-center text-center"
+    >
       <ContentRenderer :value="newsQuery">
         <ContentRendererMarkdown :value="newsQuery" />
       </ContentRenderer>

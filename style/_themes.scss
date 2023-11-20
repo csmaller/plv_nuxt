@@ -1,19 +1,21 @@
 
 :root {
     --color: #243746;
-    --color-primary: #3978c0;
+    --color-primary: #a3b97d;
     --color-secondary: #ecca52;
     --bg: #f3f5f4;
     --bg-secondary: #fff;
     --border-color: #ced4da;
+    --font-family:"Georgia, Times New Roman, Times, serif";
 
   }
   
   .dark-mode {
     --color: #ebf4f1;
-    --color-primary: #41b38a;
+    --color-primary: #a3b97d;
     --color-secondary: #fdf9f3;
     --bg: #280910;
     --bg-secondary: #071521;
     --border-color: #0d2538;
+    --font-family:'Georgia, Times New Roman, Times, serif';
   }

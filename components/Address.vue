@@ -3,10 +3,13 @@
 <template>
   <div class="w-full flex flex-wrap justify-content-center pb-6">
     <small>
-      <div class="line">1962 E Meadow Downs Way</div>
-      <div class="line">Salt Lake City, UT 84121</div>
+      <div class="line">237 New Boston Rd</div>
+      <div class="line">Fairhaven, MA 02719</div>
+      <div class="line">774-259-5347</div>
       <div class="line">
-        <a href="mailto:info@motive8endurance.com, coreysmaller@gmail.com" target="_blank">info@motive8endurance.com</a>
+        <a href="mailto:nbvineyardevents@gmail.com, coreysmaller@gmail.com" target="_blank">
+          nbvineyardevents@gmail.com
+        </a>
       </div>
     </small>
   </div>
