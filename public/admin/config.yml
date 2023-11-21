@@ -36,6 +36,7 @@ collections:
     fields:
       - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Header', name: 'header', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
       - {
@@ -62,6 +63,8 @@ collections:
     fields:
       - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
+
+      - { label: 'Header', name: 'header', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
       - {
@@ -88,6 +91,8 @@ collections:
     fields:
       - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
+
+      - { label: 'Header', name: 'header', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
       - {
@@ -114,6 +119,8 @@ collections:
     fields:
       - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
+
+      - { label: 'Header', name: 'header', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
       - {
