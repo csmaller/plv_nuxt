@@ -34,7 +34,7 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'URL', name: 'title', widget: 'string' }
+      - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
@@ -60,7 +60,7 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'URL', name: 'title', widget: 'string' }
+      - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
@@ -86,7 +86,7 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'URL', name: 'title', widget: 'string' }
+      - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
@@ -112,7 +112,7 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'URL', name: 'title', widget: 'string' }
+      - { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
