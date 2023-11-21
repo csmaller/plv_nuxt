@@ -2,7 +2,7 @@
 interface PropsInterface {
   position: string;
   image?: string;
-  header: string;
+  header?: string;
 }
 
 const props = defineProps<PropsInterface>();
@@ -15,7 +15,7 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
   <div id="wrapper" class="w-full h-full overflow-hidden px-6">
     <div class="content mt-3 flex justify-content-center">
       <div class="blurb p-6">
-        <div class="layout-header" v-text="header" />
+        <div v-if="header" class="layout-header" v-text="header" />
         <slot />
       </div>
       <img :src="image" class="img" />
