@@ -18,10 +18,15 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'string',
+          required: false,
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'pages'
+    label: 'Pages'
     folder: 'content/blog'
     format: 'frontmatter'
     create: true
@@ -44,6 +49,105 @@ collections:
     fields:
       - { label: 'URL', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'string',
+          required: false,
+        }
+
+      - {
+          label: 'Featured Image',
+          name: 'image',
+          widget: 'image',
+          required: false,
+        }
+      - {
+          label: 'Image Class',
+          name: 'class',
+          widget: 'string',
+          reqiured: false,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'wines'
+    label: 'Wines'
+    folder: 'content/wines'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'URL', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'string',
+          required: false,
+        }
+
+      - {
+          label: 'Featured Image',
+          name: 'image',
+          widget: 'image',
+          required: false,
+        }
+      - {
+          label: 'Image Class',
+          name: 'class',
+          widget: 'string',
+          reqiured: false,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'orchard'
+    label: 'Orchard'
+    folder: 'content/orchard'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'URL', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'string',
+          required: false,
+        }
+
+      - {
+          label: 'Featured Image',
+          name: 'image',
+          widget: 'image',
+          required: false,
+        }
+      - {
+          label: 'Image Class',
+          name: 'class',
+          widget: 'string',
+          reqiured: false,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'privateEvents'
+    label: 'Private Events'
+    folder: 'content/private_events'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'URL', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Image Position',
+          name: 'image_position',
+          widget: 'select',
+          default: ['left', 'right'],
+        }
       - {
           label: 'Description',
           name: 'description',
