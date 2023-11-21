@@ -25,7 +25,7 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
 <style lang="scss">
 #wrapper {
   .content {
-    background-image: url(/_nuxt/img/bg-green.png);
+    background-image: url(/img/bg-green.png);
     background-size: 65% 90%;
     background-position: v-bind(backgroundImagePosition);
     background-repeat: no-repeat;
