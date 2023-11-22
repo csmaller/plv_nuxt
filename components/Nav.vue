@@ -17,6 +17,6 @@ a {
   cursor: pointer;
   font-size: 24px;
   font-weight: 700;
-  font-family: var(--font-family);
+  font-family: var(--font-georgia);
 }
 </style>

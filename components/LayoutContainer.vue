@@ -55,13 +55,13 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
       -webkit-order: v-bind(order);
       order: v-bind(order);
       width: 50%;
-      font-family: var(--p-font-family);
+      font-family: var(--font-candara);
       font-size: 14px;
 
       .layout-header {
         font-weight: light;
         font-size: 24px;
-        font-family: var(--title-font-family);
+        font-family: var(--font-baskerville);
       }
       p {
         color: black;
