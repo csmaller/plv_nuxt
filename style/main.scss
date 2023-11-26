@@ -38,8 +38,9 @@ h5{
     margin: 16px 0 8px;
 }
 
-a{
+a {
     color: var(--color-primary);
+    font-family: var(--font-baskerville);
     cursor:pointer;
 
     &:hover{
@@ -48,6 +49,10 @@ a{
 
     &:active{
         color: orange;
+    }
+    &.submenu{
+      font-family:var(--font-comic);
+      font-size:12px;
     }
 }
 
