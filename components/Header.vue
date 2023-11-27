@@ -36,7 +36,7 @@ const links = {
       <NavDropdown header="VISIT" :links="links.visit" url="/visit" />
     </div>
     <div class="col-2">
-      <img src="/img/new_logo.png" class="flex logo mt-0" />
+      <a href="/"><img src="/img/new_logo.png" class="flex logo mt-0" /></a>
     </div>
     <div class="col-2 nav-dropdown">
       <NavDropdown header="EVENTS" :links="links.events" url="/events" />
