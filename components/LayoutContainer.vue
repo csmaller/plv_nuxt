@@ -56,7 +56,7 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
       order: v-bind(order);
       width: 50%;
       font-family: var(--font-candara);
-      font-size: 14px;
+      font-size: 18px;
 
       .layout-header {
         font-weight: light;
