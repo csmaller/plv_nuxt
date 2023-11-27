@@ -35,26 +35,26 @@ const toggleMenu = () => {
   margin: 23px;
   background: linear-gradient(
     to bottom,
-    #a3b97d,
-    #a3b97d 20%,
+    gray,
+    gray 20%,
     white 20%,
     white 40%,
-    #a3b97d 40%,
-    #a3b97d 60%,
+    gray 40%,
+    gray 60%,
     white 60%,
     white 80%,
-    #a3b97d 80%,
-    #a3b97d 100%
+    gray 80%,
+    gray 100%
   );
 }
 
 #hamburger-menu #sidebar-menu {
   position: fixed;
   top: 0;
-  left: -250px;
-  width: 200px;
+  right: -480px;
+  width: 240px;
   height: 100%;
-  background-color: #a3b97d;
+  background-color: gray;
   padding: 0px 10px;
   box-sizing: border-box;
   transition: 0.3s;
@@ -74,7 +74,8 @@ const toggleMenu = () => {
 
 .show-menu {
   visibility: visible;
-  left: 0 !important;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #hamburger-input:checked ~ .overlay {
   visibility: visible;
