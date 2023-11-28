@@ -50,4 +50,8 @@ colorMode.preference = 'light';
     transform: translate(-50%, 0%);
   }
 }
+
+#main-content {
+  margin-top: 40px;
+}
 </style>
