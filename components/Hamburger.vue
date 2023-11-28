@@ -12,7 +12,7 @@ const toggleMenu = () => {
   <div class="sm:flex md:hidden">
     <label id="hamburger-menu" @click="toggleMenu">
       <nav id="sidebar-menu" :class="show ? `show-menu` : null">
-        <ul v-if="show">
+        <ul>
           <li><RouterLink to="/" v-text="`Home`" /></li>
           <li><RouterLink to="/about" v-text="`About`" /></li>
           <li><RouterLink to="/contact" v-text="`Contact`" /></li>
@@ -51,7 +51,9 @@ const toggleMenu = () => {
 #hamburger-menu #sidebar-menu {
   position: fixed;
   top: 0;
-  right: -480px;
+
+  left: 50%;
+  transform: translateX(-50%);
   width: 240px;
   height: 100%;
   background-color: gray;
@@ -59,11 +61,13 @@ const toggleMenu = () => {
   box-sizing: border-box;
   transition: 0.3s;
   z-index: 1001;
+  visibility: hidden;
 
   ul {
     margin-top: 30px;
     list-style: none;
     line-height: 55px;
+    border: 1px solid red;
   }
 
   a {
@@ -73,10 +77,9 @@ const toggleMenu = () => {
 }
 
 .show-menu {
-  visibility: visible;
-  left: 50%;
-  transform: translateX(-50%);
+  visibility: visible !important;
 }
+
 #hamburger-input:checked ~ .overlay {
   visibility: visible;
   opacity: 0.4;
