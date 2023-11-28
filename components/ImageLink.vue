@@ -9,13 +9,16 @@ const { url, src } = toRefs(props);
 </script>
 
 <template>
-  <a :href="url"><img :src="src" /></a>
+  <div class="relative">
+    <a :href="url"><img :src="src" /></a>
+    <slot />
+  </div>
 </template>
 
 <style scoped lang="scss">
 img {
   padding: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   border: 1px solid white;
   box-shadow: 0px 0px 5px 2px rgba(4, 5, 4, 0.08);
 }

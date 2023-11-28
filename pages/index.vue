@@ -2,17 +2,39 @@
 
 <template>
   <div class="mx-3 grid w-full">
+    <div class="col"></div>
     <div class="col-3">
-      <ImageLink src="/img/barn-night.jpg" url="/about" />
+      <ImageLink src="/img/barn-night-cropped.png" url="/about">
+        <h3 class="w-full absolute top-5 text-center left-0">TASTING ROOM</h3>
+      </ImageLink>
     </div>
-    <div class="col-6 flex-column gap-4">
-      <ImageLink src="/img/guitar.jpg" url="/about" />
-      <ImageLink src="/img/picnic.jpg" url="/about" />
+    <div class="col-4 flex-column">
+      <ImageLink src="/img/randy-cropped.png" url="/about">
+        <h3 class="w-full absolute bottom-10 left-5 text-white">UPCOMING EVENTS</h3>
+      </ImageLink>
+      <ImageLink src="/img/picnic-cropped.png" url="/about">
+        <h3 class="w-full absolute bottom-10 right-10 text-right text-white">EXPERIENCES</h3>
+      </ImageLink>
     </div>
     <div class="col-3">
-      <ImageLink src="/img/wine-bottle.jpg" url="/about" />
+      <ImageLink src="/img/wine-bottle.jpg" url="/about">
+        <h3 class="w-full absolute top-5 text-center left-0">WINES</h3>
+      </ImageLink>
     </div>
+    <div class="col"></div>
   </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+h3 {
+  font-family: var(--font-baskerville);
+  font-size: 22px;
+  cursor: pointer;
+}
+.top-10 {
+  top: 10%;
+}
+.bottom-10 {
+  bottom: 10%;
+}
+</style>
