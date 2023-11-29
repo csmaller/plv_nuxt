@@ -13,12 +13,14 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
 </script>
 <template>
   <div id="wrapper" class="w-full h-full overflow-hidden px-6">
-    <div class="content mt-3 flex justify-content-center">
-      <div class="blurb p-6">
+    <div class="content mt-3 flex flex-wrap justify-content-center">
+      <div class="blurb p-6 col-12 md:col-6">
         <div v-if="header" class="layout-header" v-text="header" />
         <slot />
       </div>
-      <img :src="image" class="img" />
+      <div class="img-container col-12 md:col-6">
+        <img :src="image" class="img" />
+      </div>
     </div>
   </div>
 </template>
@@ -60,6 +62,7 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
 
       .layout-header {
         font-weight: light;
+        text-align: center;
         font-size: 24px;
         font-family: var(--font-baskerville);
       }
@@ -67,7 +70,7 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
         color: black;
       }
     }
-    img {
+    .img-container {
       margin-top: 40px;
       -webkit-box-ordinal-group: v-bind(imgOrder);
       -moz-box-ordinal-group: v-bind(imgOrder);
@@ -76,6 +79,15 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
       order: v-bind(imgOrder);
       max-height: 450px;
       max-width: 900px;
+    }
+
+    @media (max-width: 767px) {
+      background: var(--color-green);
+
+      .blurb {
+        width: 100%;
+        padding: 6px !important;
+      }
     }
   }
 }

@@ -5,12 +5,14 @@ const links = {
     { label: 'HISTORY', url: '/history' },
     { label: 'WINES', url: '/wines' },
     { label: 'ORCHARD', url: '/orchard' },
+    { label: 'STORE', url: '/store' },
   ],
   visit: [
-    { label: 'ABOUT', url: '/about' },
-    { label: 'HISTORY', url: '/history' },
-    { label: 'WINES', url: '/wines' },
-    { label: 'ORCHARD', url: '/orchard' },
+    { label: 'TASTING ROOM', url: '/tasting' },
+    { label: 'VINEYARD TOURS', url: '/tours' },
+    { label: 'PICNIC IN THE VINES', url: '/picnic' },
+    { label: 'PROPOSAL PACKAGE', url: '/proposal' },
+    { label: 'PRIVATE FIRE PITS', url: '/firepit' },
   ],
   events: [
     { label: 'ABOUT', url: '/about' },

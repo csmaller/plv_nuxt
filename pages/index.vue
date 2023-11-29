@@ -9,7 +9,7 @@
       </ImageLink>
     </div>
     <div class="col-4 flex-column">
-      <ImageLink src="/img/randy-cropped.png" url="/about">
+      <ImageLink src="/img/randy-cropped.png" url="/events">
         <h3 class="w-full absolute bottom-10 left-5 text-white">UPCOMING EVENTS</h3>
       </ImageLink>
       <ImageLink src="/img/picnic-cropped.png" url="/about">
@@ -17,7 +17,7 @@
       </ImageLink>
     </div>
     <div class="col-3">
-      <ImageLink src="/img/wine-bottle.jpg" url="/about">
+      <ImageLink src="/img/wine-bottle.jpg" url="/wines">
         <h3 class="w-full absolute top-5 text-center left-0">WINES</h3>
       </ImageLink>
     </div>
