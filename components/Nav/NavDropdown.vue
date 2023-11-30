@@ -19,9 +19,9 @@ const showMenu = ref(false);
 
 <template>
   <div class="nav align-content-center p-0" @mouseover="showMenu = true" @mouseleave="showMenu = false">
-    <NuxtLink class="nav-header" :to="url">{{ header }}</NuxtLink>
+    <NuxtLink class="nav-header flex w-full justify-content-center" :to="url">{{ header }}</NuxtLink>
     <div v-if="showMenu" class="dropdown-menu flex flex-column z-100">
-      <div class="link-container w-6" v-for="link in links" :key="link.label">
+      <div class="link-container justify-content-end text-center" v-for="link in links" :key="link.label">
         <NuxtLink class="w-full h-full" :to="link.url">{{ link.label }}</NuxtLink>
       </div>
     </div>
@@ -30,6 +30,7 @@ const showMenu = ref(false);
 
 <style scoped lang="scss">
 .nav {
+  min-width: 100%;
   .nav-header {
     color: black;
     font-family: var(--font-baskerville);

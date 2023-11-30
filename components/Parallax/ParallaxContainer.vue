@@ -55,7 +55,7 @@ provide('parallaxContainer', data);
 <style scoped lang="scss">
 .ParallaxContainer {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   min-height: 100vh;
 }
 </style>

@@ -9,15 +9,12 @@
           :factor="0.5"
           class="App__example-element w-full p-1 justify-content-center align-content-center"
         >
-          <AboutContainer />
+          <About />
         </ParallaxElement>
       </ParallaxContainer>
     </section>
     <section class="App__example">
       <ParallaxContainer class="App__example-double-element my-6" :background-img="`/img/firepit-vines-1.jpg`">
-        <!-- <ParallaxImage :width="400" :height="225" :factor="0.8" class="">
-          <img src="/img/barn-night-cropped.png" :style="{ width: '400px', height: '225px' }" />
-        </ParallaxImage> -->
         <ParallaxElement
           :factor="0.5"
           class="App__example-element w-full p-1 justify-content-center align-content-center"
@@ -28,9 +25,6 @@
     </section>
     <section class="App__example">
       <ParallaxContainer class="App__example-double-element my-6" :background-img="`/img/pears.jpg`">
-        <!-- <ParallaxImage :width="400" :height="225" :factor="0.8" class="">
-          <img src="/img/barn-night-cropped.png" :style="{ width: '400px', height: '225px' }" />
-        </ParallaxImage> -->
         <ParallaxElement
           :factor="0.5"
           class="App__example-element w-full p-1 justify-content-center align-content-center"
@@ -41,9 +35,6 @@
     </section>
     <section class="App__example">
       <ParallaxContainer class="App__example-double-element my-6" :background-img="`/img/vineyard.jpg`">
-        <!-- <ParallaxImage :width="400" :height="225" :factor="0.8" class="">
-          <img src="/img/barn-night-cropped.png" :style="{ width: '400px', height: '225px' }" />
-        </ParallaxImage> -->
         <ParallaxElement
           :factor="0.5"
           class="App__example-element w-full p-1 justify-content-center align-content-center"

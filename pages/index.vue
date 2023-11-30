@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="mx-3 grid w-full">
+  <div class="home grid w-full">
     <div class="col"></div>
     <div class="col-3">
       <ImageLink src="/img/barn-night-cropped.png" url="/about">

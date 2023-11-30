@@ -38,7 +38,7 @@ const links = {
       <div class="col-2 nav-dropdown">
         <NavDropdown header="VISIT" :links="links.visit" url="/visit" />
       </div>
-      <div class="col-2 logo-container">
+      <div class="col-2 logo-container flex justify-content-center">
         <a href="/"><img src="/img/new_logo.png" class="flex logo mt-0" /></a>
       </div>
       <div class="col-2 nav-dropdown">
@@ -59,10 +59,17 @@ const links = {
 </template>
 <style lang="scss">
 .header {
+  position: sticky;
+  top: 0;
+  left: 0;
   max-height: 180px;
-  min-height: 180px;
+  min-height: 225px;
+  background-color: white;
+  z-index: 10000;
   .nav-dropdown {
     padding-top: 74px !important;
+    display: flex;
+    justify-content: center;
   }
 }
 
