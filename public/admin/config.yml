@@ -136,3 +136,34 @@ collections:
           options: ['left', 'right'],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'images'
+    extension: 'json'
+    label: 'Image Slider'
+    files:
+      - file: 'public/json/images.json'
+        label: 'Image Slider'
+        name: 'imageList'
+        fields:
+          - name: images
+            label: images
+            widget: list
+            summary: “{{fields.image}}”
+            fields:
+              - { label: “Image”, name: image, widget: image }
+  - name: 'events'
+    label: 'Events'
+    extension: 'json'
+
+    files:
+      - file: 'public/json/events.json'
+        label: 'Events'
+        name: 'eventList'
+        fields:
+          - name: events
+            label: Events
+            widget: list
+            fields:
+              - { name: title }
+              - { name: date, widget: date }
+              - { name: description }
+              - { name: payment_link }
