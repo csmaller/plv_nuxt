@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import images from '@/content/json/images.json';
-console.log(images);
+
 const currentSlide = ref(0);
 const responsiveOptions = ref([
   {
