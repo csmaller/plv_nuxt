@@ -52,34 +52,7 @@ collections:
           options: ['left', 'right'],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'events'
-    label: 'Events'
-    folder: 'content/events'
-    format: 'frontmatter'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: true
-    fields:
-      - { label: 'URL', name: 'url', widget: 'string' }
-      - { label: 'Title', name: 'title', widget: 'string' }
 
-      - { label: 'Header', name: 'header', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Meta Description', name: 'description', widget: 'string' }
-      - {
-          label: 'Featured Image',
-          name: 'image',
-          widget: 'image',
-          required: false,
-        }
-      - {
-          label: 'Image Position',
-          name: 'image_position',
-          widget: 'select',
-          options: ['left', 'right'],
-        }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'visit'
     label: 'Visit'
     folder: 'content/visit'
