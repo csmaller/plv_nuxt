@@ -3,10 +3,11 @@ interface PropsInterface {
   position: string;
   image?: string;
   header?: string;
+  isSlider?: boolean;
 }
 
 const props = defineProps<PropsInterface>();
-const { position, image, header } = toRefs(props);
+const { position, image, header, isSlider } = toRefs(props);
 const order = computed(() => (position.value === 'left' ? 2 : 1));
 const imgOrder = computed(() => (position.value === 'left' ? 1 : 2));
 const backgroundImagePosition = computed(() => (position.value === 'left' ? 'right' : 'left'));
@@ -19,7 +20,8 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
         <slot />
       </div>
       <div class="img-container col-12 md:col-6">
-        <img :src="image" class="img" />
+        <img v-if="!isSlider" :src="image" class="img" />
+        <ImageCarousel v-else />
       </div>
     </div>
   </div>

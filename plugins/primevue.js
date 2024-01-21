@@ -1,4 +1,5 @@
 import Button from 'primevue/button';
+import Carousel from 'primevue/carousel';
 import InputText from 'primevue/inputtext';
 import Menubar from 'primevue/menubar';
 import PrimeVue from 'primevue/config';
@@ -13,5 +14,6 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component('Toast', Toast);
   nuxtApp.vueApp.component('InputText', InputText);
   nuxtApp.vueApp.component('Menubar', Menubar);
+  nuxtApp.vueApp.component('Carousel', Carousel);
   //other components that you need
 });
