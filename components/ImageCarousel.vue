@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import images from '@/content/json/images.json';
+console.log(images);
 const currentSlide = ref(0);
 const responsiveOptions = ref([
   {
@@ -38,45 +39,21 @@ const responsiveOptions = ref([
       :responsiveOptions="responsiveOptions"
     >
       <template #item="slotProps">
-        <div class="w-screen">
-          <img :src="`${slotProps.data.image}`" class="w-screen" />
+        <div class="my-3">
+          <img :src="`${slotProps.data.image}`" />
         </div>
       </template>
     </Carousel>
-
-    <!-- <PrimevueCarousel
-      v-model="currentSlide"
-      :items-to-show="1"
-      :wrap-around="true"
-      :transition="500"
-      :autoplay="4000000"
-      class="carousel sm:w-full"
-    >
-      <template #slides>
-        <Slide v-for="(slide, index) in images" :key="index">
-          <img :src="`/img/slider/${slide}`" class="carousel__item" />
-        </Slide>
-      </template>
-      <template #addons>
-        <Navigation />
-        <Pagination />
-      </template>
-    </PrimevueCarousel> -->
   </div>
 </template>
 
 <style lang="scss" scoped>
 .container {
   overflow: hidden;
-  max-width: 100vw;
 
   .carousel__item {
     min-height: 700px;
-    border: 2px solid var(--yellow);
-    display: flex;
-    animation: fadeIn 2s;
     border-radius: 6px;
-    animation-timing-function: ease-in-out;
 
     @media (max-width: 600px) {
       min-height: 270px;
@@ -98,35 +75,5 @@ const responsiveOptions = ref([
 
 .carousel__viewport {
   perspective: 100%;
-}
-
-.carousel__slide--sliding {
-  transition: 1s;
-}
-
-.carousel__slide {
-  opacity: 1;
-  transform: rotateY(-20deg) scale(0.9);
-}
-
-.carousel__slide--active ~ .carousel__slide {
-  transform: rotateY(20deg) scale(0.9);
-}
-
-.carousel__slide--prev {
-  animation: fadeOut 3s;
-}
-
-.carousel__slide--next {
-  opacity: 0;
-}
-
-.carousel__slide--visible {
-  opacity: 0;
-  animation: fadeIn 3s;
-}
-
-.carousel__slide--active {
-  opacity: 1;
 }
 </style>

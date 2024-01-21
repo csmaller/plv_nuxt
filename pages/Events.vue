@@ -2,22 +2,23 @@
 import FullCalendar from '@fullcalendar/vue3';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from '@fullcalendar/interaction';
-
+import events from '@/content/json/events.json';
+console.log(events.events);
+onBeforeMount(() => {
+  calendarOptions.value.events = events.events;
+});
 const handleDateClick = (arg: any) => {
   console.log(arg.event.id + ' ' + arg.event.title + ':' + arg.event.description);
 };
 
-const calendarOptions = {
+const calendarOptions = ref({
   plugins: [dayGridPlugin, interactionPlugin],
   initialView: 'dayGridMonth',
   dateClick: handleDateClick,
   eventClick: handleDateClick,
   weekends: true,
-  events: [
-    { title: 'event 1', date: '2024-01-05', id: '123', description: 'here is a description' },
-    { title: 'event 2', date: '2024-01-06', id: '223', description: 'here is a description' },
-  ],
-};
+  events: [],
+});
 </script>
 
 <template>

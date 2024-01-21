@@ -138,6 +138,6 @@ collections:
             widget: list
             fields:
               - { name: title }
-              - { name: date, widget: date }
+              - { name: date_time, widget: datetime }
               - { name: description }
               - { name: payment_link }
