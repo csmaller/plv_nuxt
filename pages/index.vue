@@ -4,7 +4,7 @@
   <div class="home grid w-full">
     <div class="col"></div>
     <div class="col-3">
-      <ImageLink src="/img/barn-night-cropped.png" url="/about">
+      <ImageLink src="/img/barn-night-cropped.png" url="/#about">
         <h3 class="w-full absolute top-5 text-center left-0">TASTING ROOM</h3>
       </ImageLink>
     </div>
@@ -22,6 +22,7 @@
       </ImageLink>
     </div>
     <div class="col"></div>
+    <About id="about" class="col-12" />
   </div>
 </template>
 

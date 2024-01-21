@@ -114,7 +114,7 @@ collections:
     extension: 'json'
     label: 'Image Slider'
     files:
-      - file: 'public/json/images.json'
+      - file: 'src/json/images.json'
         label: 'Image Slider'
         name: 'imageList'
         fields:
@@ -129,7 +129,7 @@ collections:
     extension: 'json'
 
     files:
-      - file: 'public/json/events.json'
+      - file: 'src/json/events.json'
         label: 'Events'
         name: 'eventList'
         fields:
