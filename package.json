@@ -18,10 +18,10 @@
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.10",
-    "@fullcalendar/vue3": "^6.1.10",
     "@fullcalendar/daygrid": "^6.1.10",
     "@fullcalendar/interaction": "^6.1.10",
     "@fullcalendar/timegrid": "^6.1.10",
+    "@fullcalendar/vue3": "^6.1.10",
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxt/image": "^1.0.0-rc.1",
     "@nuxt/ui": "^0.4.1",
@@ -40,8 +40,6 @@
     "primevue": "^3.29.2",
     "sass": "^1.63.6",
     "vue": "^3.3.4",
-    "vue3-carousel": "^0.3.1",
-    "vue3-carousel-nuxt": "^1.1.0",
     "vuelidate": "^0.7.7"
   }
 }

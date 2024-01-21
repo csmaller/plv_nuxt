@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import images from 'public/json/images.json';
-
+import images from '/json/images.json';
+console.log(images);
 const currentSlide = ref(0);
 const responsiveOptions = ref([
   {
@@ -84,12 +84,12 @@ const responsiveOptions = ref([
     }
   }
 
-  :deep(.carousel__prev) {
-    visibility: hidden;
-  }
-  :deep(.carousel__next) {
-    visibility: hidden;
-  }
+  // :deep(.carousel__prev) {
+  //   visibility: hidden;
+  // }
+  // :deep(.carousel__next) {
+  //   visibility: hidden;
+  // }
   :deep(.carousel__pagination) {
     @media (max-width: 700px) {
       padding-left: 0;
@@ -97,17 +97,8 @@ const responsiveOptions = ref([
   }
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .carousel__viewport {
-  perspective: 100vw;
+  perspective: 100%;
 }
 
 .carousel__slide--sliding {
