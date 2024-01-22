@@ -35,11 +35,13 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-vue": "^9.15.0",
     "jarallax": "^2.1.4",
+    "nanoid": "^5.0.4",
     "object-fit-images": "^3.2.4",
     "primeflex": "^3.3.1",
     "primevue": "^3.29.2",
     "sass": "^1.63.6",
     "vue": "^3.3.4",
+    "vue-cryptojs": "^2.4.5",
     "vuelidate": "^0.7.7"
   }
 }
