@@ -20,6 +20,14 @@
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
+      function UuidWidget() {
+        return '10000000-1000-4000-8000-100000000000'.replace(/[018]/g, (c) =>
+          (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16),
+        );
+      }
+
+      CMS.registerWidget('uuid', UuidWidget);
+
       CMS.registerEditorComponent({
         id: 'ImageResponsive',
         label: 'Image-Responsive',
@@ -54,42 +62,6 @@
           return `<img src=${obj.src} alt=${obj.title} class="${obj.class}" />`;
         },
       });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/nanoid/nanoid.js" />
-    <script type="application/javascript">
-      function nanoid(t = 21) {
-        return crypto
-          .getRandomValues(new Uint8Array(t))
-          .reduce(
-            (t, e) =>
-              (t +=
-                (e &= 63) < 36 ? e.toString(36) : e < 62 ? (e - 26).toString(36).toUpperCase() : e > 62 ? '-' : '_'),
-            '',
-          );
-      }
-
-      const UuidWidget = createClass({
-        componentDidMount() {
-          const { value, onChange } = this.props;
-          if (!value) {
-            onChange(nanoid());
-          }
-        },
-
-        render() {
-          const { value, classNameWrapper, forID } = this.props;
-          return h(
-            'span',
-            {
-              id: forID,
-              style: { fontFamily: 'monospace', marginLeft: '1rem' },
-              //className: classNameWrapper
-            },
-            value,
-          );
-        },
-      });
-      CMS.registerWidget('uuid', UuidWidget);
     </script>
   </body>
 </html>
