@@ -138,7 +138,7 @@ collections:
             widget: list
             fields:
               - { name: title }
-              - { label: 'UUID', name: 'uuid', widget: uuid }
+              - { label: 'id', name: 'id', widget: id }
               - { name: date, widget: datetime }
               - { name: description }
               - { name: payment_link }
