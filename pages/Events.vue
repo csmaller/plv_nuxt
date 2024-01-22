@@ -8,14 +8,18 @@ onBeforeMount(() => {
   calendarOptions.value.events = events.events;
 });
 const handleDateClick = (arg: any) => {
-  console.log(arg.event.id + ' ' + arg.event.title + ':' + arg.event.description);
+  alert('here we could pop up a form where they inquire about that date with a description of their event etc');
+};
+
+const handleEventClick = (arg: any) => {
+  alert(arg.event.extendedProps.description);
 };
 
 const calendarOptions = ref({
   plugins: [dayGridPlugin, interactionPlugin],
   initialView: 'dayGridMonth',
   dateClick: handleDateClick,
-  eventClick: handleDateClick,
+  eventClick: handleEventClick,
   weekends: true,
   events: [],
 });
