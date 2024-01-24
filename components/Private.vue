@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { data: privateQuery } = await useAsyncData('private', () => {
-  return queryContent('home')
+  return queryContent('events')
     .where({ title: { $eq: 'private' } })
     .findOne();
 });

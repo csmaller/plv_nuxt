@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { data: corporateQuery } = await useAsyncData('corporate', () => {
-  return queryContent('home')
+  return queryContent('events')
     .where({ title: { $eq: 'corporate' } })
     .findOne();
 });
