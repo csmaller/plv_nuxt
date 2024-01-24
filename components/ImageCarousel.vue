@@ -60,12 +60,6 @@ const responsiveOptions = ref([
     }
   }
 
-  // :deep(.carousel__prev) {
-  //   visibility: hidden;
-  // }
-  // :deep(.carousel__next) {
-  //   visibility: hidden;
-  // }
   :deep(.carousel__pagination) {
     @media (max-width: 700px) {
       padding-left: 0;

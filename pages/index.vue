@@ -4,7 +4,7 @@
   <div class="home grid w-full">
     <div class="col"></div>
     <div class="col-3">
-      <ImageLink src="/img/barn-night-cropped.png" url="/#about">
+      <ImageLink src="/img/barn-night-cropped.png" url="#about">
         <h3 class="w-full absolute top-5 text-center left-0">TASTING ROOM</h3>
       </ImageLink>
     </div>
@@ -12,17 +12,26 @@
       <ImageLink src="/img/randy-cropped.png" url="/events">
         <h3 class="w-full absolute bottom-10 left-5 text-white">UPCOMING EVENTS</h3>
       </ImageLink>
-      <ImageLink src="/img/picnic-cropped.png" url="/about">
+      <ImageLink src="/img/picnic-cropped.png" url="/#about">
         <h3 class="w-full absolute bottom-10 right-10 text-right text-white">EXPERIENCES</h3>
       </ImageLink>
     </div>
     <div class="col-3">
-      <ImageLink src="/img/wine-bottle.jpg" url="/wines">
+      <ImageLink src="/img/wine-bottle.jpg" url="#wines">
         <h3 class="w-full absolute top-5 text-center left-0">WINES</h3>
       </ImageLink>
     </div>
     <div class="col"></div>
-    <About id="about" class="col-12" />
+    <Divider link="about" />
+    <About class="col-12" />
+    <Divider link="history" />
+    <History class="col-12" />
+    <Divider link="wines" />
+    <Wines class="col-12" />
+    <Divider link="orchard" />
+    <Orchard class="col-12" />
+    <Divider link="store" />
+    <Store class="col-12" />
   </div>
 </template>
 
