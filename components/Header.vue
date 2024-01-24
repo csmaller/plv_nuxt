@@ -15,10 +15,9 @@ const links = {
     { label: 'PRIVATE FIRE PITS', url: '/visit#firepit' },
   ],
   events: [
-    { label: 'ABOUT', url: '/about' },
-    { label: 'HISTORY', url: '/history' },
-    { label: 'WINES', url: '/wines' },
-    { label: 'ORCHARD', url: '/orchard' },
+    { label: 'EVENTS CALENDAR', url: '/events#calendar' },
+    { label: 'PRIVATE EVENTS', url: '/events#private' },
+    { label: 'CORPORATE EVENTS', url: '/events#corporate' },
   ],
   contact: [
     { label: 'ABOUT', url: '/about' },

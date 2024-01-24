@@ -15,21 +15,3 @@
     <Divider />
   </div>
 </template>
-
-<style scoped lang="scss">
-h3 {
-  font-family: var(--font-baskerville);
-  font-size: 22px;
-  cursor: pointer;
-
-  @media (max-width: 550px) {
-    font-size: 15px;
-  }
-}
-.top-10 {
-  top: 10%;
-}
-.bottom-10 {
-  bottom: 10%;
-}
-</style>

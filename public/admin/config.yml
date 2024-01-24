@@ -26,7 +26,7 @@ collections:
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'home'
-    label: 'Home'
+    label: 'Home Page'
     folder: 'content/home'
     format: 'frontmatter'
     create: true
@@ -53,9 +53,9 @@ collections:
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'visit'
-    label: 'Visit'
-    folder: 'content/visit'
+  - name: 'events'
+    label: 'Events Page'
+    folder: 'content/events'
     format: 'frontmatter'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -124,8 +124,8 @@ collections:
             summary: “{{fields.image}}”
             fields:
               - { label: “Image”, name: image, widget: image }
-  - name: 'events'
-    label: 'Events'
+  - name: 'events_calendar'
+    label: 'Events Calendar'
     extension: 'json'
 
     files:

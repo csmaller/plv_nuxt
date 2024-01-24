@@ -1,34 +1,13 @@
-<script setup lang="ts">
-import FullCalendar from '@fullcalendar/vue3';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import interactionPlugin from '@fullcalendar/interaction';
-import events from '@/content/json/events.json';
-console.log(events.events);
-onBeforeMount(() => {
-  calendarOptions.value.events = events.events;
-});
-const handleDateClick = (arg: any) => {
-  alert('here we could pop up a form where they inquire about that date with a description of their event etc');
-};
-
-const handleEventClick = (arg: any) => {
-  alert(arg.event.extendedProps.description);
-};
-
-const calendarOptions = ref({
-  plugins: [dayGridPlugin, interactionPlugin],
-  initialView: 'dayGridMonth',
-  dateClick: handleDateClick,
-  eventClick: handleEventClick,
-  weekends: true,
-  events: [],
-});
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="w-full p-8">
-    <FullCalendar :options="calendarOptions" />
+  <div class="home grid w-full">
+    <EventsCalendar link="calendar" />
+    <Tasting class="col-12" />
+    <Divider link="private" />
+    <Private class="col-12" />
+    <Divider link="corporate" />
+    <Corproate class="col-12" />
+    <Divider />
   </div>
 </template>
-
-<style scoped lang="scss"></style>
