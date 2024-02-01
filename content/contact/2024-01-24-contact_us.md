@@ -1,9 +1,10 @@
 ---
 url: contact_us
 title: contact_us
-header: CONTACT US
+header: Have a question?  Email us!
 date: 2024-01-24T23:18:59.645Z
 description: contact us!!
+image: /img/vineyard_bg.jpeg
 image_position: right
 ---
 Nasketucket Bay Vineyard
