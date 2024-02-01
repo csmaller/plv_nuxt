@@ -82,6 +82,22 @@ collections:
           options: ['left', 'right'],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'info'
+    label: 'Info'
+    folder: 'content/info'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Header', name: 'header', widget: 'string' }
+      - { label: 'Address Name', name: 'address_name', widget: 'string' }
+      - { label: 'Address Number', name: 'address_number', widget: 'string' }
+      - { label: 'City,State,Zip', name: 'city_state', widget: 'string' }
+      - { label: 'Phone', name: 'phone', widget: 'string' }
+
+      - { label: 'Hours', name: 'body', widget: 'markdown' }
   - name: 'contact'
     label: 'Contact'
     folder: 'content/contact'
