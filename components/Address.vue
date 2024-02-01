@@ -13,9 +13,14 @@ const { address_name, address_number, city_state, email, phone } = toRefs(props)
 
 <template>
   <div class="w-full flex flex-wrap justify-content-center text-center pb-6">
-    <div class="line">{{ address_name }}</div>
-    <div class="line">{{ address_number }}</div>
-    <div class="line">{{ city_state }}</div>
+    <a
+      href="https://www.google.com/maps/place/Nasketucket+Bay+Vineyard/@41.6652334,-70.8638948,15z/data=!4m2!3m1!1s0x0:0xc51725b8327f2bd2?sa=X&ved=2ahUKEwj0t5HcpIuEAxXlhu4BHT2-DDEQ_BJ6BAhrEAA"
+      target="_blank"
+    >
+      <div class="line">{{ address_name }}</div>
+      <div class="line">{{ address_number }}</div>
+      <div class="line">{{ city_state }}</div>
+    </a>
     <br />
     <div class="line">Phone:{{ phone }}</div>
     <div class="line">
@@ -37,5 +42,10 @@ const { address_name, address_number, city_state, email, phone } = toRefs(props)
 
 a {
   color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
 }
 </style>

@@ -1,9 +1,12 @@
 <script lang="ts" setup>
 interface Props {
   link?: string;
+  height?: string;
 }
 
-const props = defineProps<Props>();
+const props = withDefaults(defineProps<Props>(), {
+  height: '160px',
+});
 const { link } = toRefs(props);
 </script>
 <template>
@@ -13,7 +16,7 @@ const { link } = toRefs(props);
 </template>
 <style lang="scss">
 .divider {
-  height: 160px;
+  height: v-bind(height);
   width: 100vw;
 }
 </style>

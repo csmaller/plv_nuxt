@@ -6,6 +6,7 @@
     <div class="col-9">
       <Divider link="contact_us" />
       <ContactUs />
+      <Divider />
       <Divider link="faqs" />
       <Faqs />
       <Divider />

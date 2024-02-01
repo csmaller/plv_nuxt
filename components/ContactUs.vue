@@ -6,6 +6,12 @@ import { required, minLength, email } from '@vuelidate/validators';
 
 const toast = useToast();
 
+const { data: contactQuery } = await useAsyncData('contact', () => {
+  return queryContent('contact')
+    .where({ title: { $eq: 'contact_us' } })
+    .findOne();
+});
+
 interface FormInterface {
   name: string;
   email: string;
@@ -98,38 +104,61 @@ const doToast = () => {
     method="POST"
     netlify
     netlify-honeypot
-    class="flex flex-wrap sm:w-full lg:w-6 p-3 gap-3"
+    class="contact-us-form flex flex-wrap sm:w-full lg:w-10 p-3 gap-3"
+    v-bind:style="{ backgroundImage: 'url(' + contactQuery.image + ')' }"
     @submit.prevent="handleSubmit"
   >
-    <div class="flex w-full">
-      <h3>Contact Us</h3>
+    <div class="flex w-full justify-content-center">
+      <h3>{{ contactQuery.header }}</h3>
     </div>
-    <div class="w-full">
+    <div class="w-full pt-5">
       <input type="hidden" name="form-name" value="plvContact" />
-      <div class="field flex flex-column">
-        <label for="name" class="required">Name</label>
-        <InputText id="name" v-model="v$.name.$model" name="name" />
-        <div v-for="error of v$.name.$errors" :key="error.$uid" class="input-errors">
-          <div class="p-error">{{ error.$message }}</div>
+      <div class="flex flex-row">
+        <div class="field flex w-6 pr-2 py-4">
+          <InputText class="w-full p-2" id="name" v-model="v$.name.$model" name="name" placeholder="Enter your name" />
+          <div v-for="error of v$.name.$errors" :key="error.$uid" class="input-errors">
+            <div class="p-error">{{ error.$message }}</div>
+          </div>
+        </div>
+        <div class="field flex w-6 py-4 pl-2">
+          <InputText
+            id="email"
+            class="w-full p-2"
+            v-model="v$.email.$model"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <div v-for="error of v$.email.$errors" :key="error.$uid" class="input-errors">
+            <div class="p-error">{{ error.$message }}</div>
+          </div>
         </div>
       </div>
       <div class="field flex flex-column">
-        <label for="email" class="required">Email</label>
-        <InputText id="email" v-model="v$.email.$model" name="email" />
-        <div v-for="error of v$.email.$errors" :key="error.$uid" class="input-errors">
-          <div class="p-error">{{ error.$message }}</div>
-        </div>
-      </div>
-      <div class="field flex flex-column">
-        <label for="message" class="required">message</label>
-        <textarea id="message" v-model="v$.message.$model" name="message"></textarea>
+        <textarea
+          id="message"
+          v-model="v$.message.$model"
+          name="message"
+          rows="5"
+          class="p-2"
+          placeholder="Enter your message"
+        ></textarea>
         <div v-for="error of v$.message.$errors" :key="error.$uid" class="input-errors">
           <div class="p-error">{{ error.$message }}</div>
         </div>
       </div>
-      <Button id="save_btn" type="submit" label="Send" :disabled="v$.$invalid" class="button" />
+      <div class="w-full flex justify-content-end px-2">
+        <Button id="save_btn" type="submit" label="SEND" :disabled="v$.$invalid" class="button w-3 py-2 mt-4" />
+      </div>
     </div>
   </form>
 </template>
+<style lang="scss">
+input,
+textarea {
+  background-color: var(--color-light-green);
+}
 
-<style scoped lang="scss"></style>
+h4 {
+  font-family: var(--font-baskerville);
+}
+</style>
