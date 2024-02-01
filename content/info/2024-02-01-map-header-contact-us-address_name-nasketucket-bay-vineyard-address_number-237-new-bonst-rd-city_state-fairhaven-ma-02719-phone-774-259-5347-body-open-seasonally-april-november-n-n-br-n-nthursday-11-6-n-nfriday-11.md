@@ -4,6 +4,7 @@ address_name: Nasketucket Bay Vineyard
 address_number: 237 New Bonst Rd.
 city_state: Fairhaven, MA 02719
 phone: 774-259-5347
+email: info@peacelovevino.com
 ---
 Open Seasonally April - November
 
