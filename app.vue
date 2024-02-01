@@ -1,4 +1,10 @@
-<script setup>
+<script setup lang="ts">
+const { data: footerQuery } = await useAsyncData('footer', () => {
+  return queryContent('info')
+    .where({ header: { $eq: 'CONTACT US' } })
+    .findOne();
+});
+
 useHead({
   script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
   link: [
@@ -31,7 +37,13 @@ colorMode.preference = 'light';
       </div>
     </div>
     <footer class="flex w-full text-center justify-content-center align-items-center pt-2">
-      <Address />
+      <Address
+        :address_name="footerQuery.address_name"
+        :address_number="footerQuery.address_number"
+        :city_state="footerQuery.city_state"
+        :email="footerQuery.email"
+        :phone="footerQuery.phone"
+      />
     </footer>
   </div>
 </template>

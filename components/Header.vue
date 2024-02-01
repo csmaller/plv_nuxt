@@ -39,10 +39,10 @@ const links = {
         <a href="/"><img src="/img/new_logo.png" class="flex logo mt-0" /></a>
       </div>
       <div class="col-2 nav-dropdown">
-        <NavDropdown header="EVENTS" :links="links.events" url="/events" />
+        <NavDropdown header="EVENTS" :links="links.events" url="/events#calendar" />
       </div>
       <div class="col-2 nav-dropdown">
-        <NavDropdown header="CONTACT" :links="links.contact" url="/contact" />
+        <NavDropdown header="CONTACT" :links="links.contact" url="/contact#contact_us" />
       </div>
       <div class="col"></div>
     </div>
