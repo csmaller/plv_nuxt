@@ -20,10 +20,8 @@ const links = {
     { label: 'CORPORATE EVENTS', url: '/events#corporate' },
   ],
   contact: [
-    { label: 'ABOUT', url: '/about' },
-    { label: 'HISTORY', url: '/history' },
-    { label: 'WINES', url: '/wines' },
-    { label: 'ORCHARD', url: '/orchard' },
+    { label: 'CONTACT US', url: '/contact#contact_us' },
+    { label: 'FAQS', url: '/contact#faqs' },
   ],
 };
 </script>

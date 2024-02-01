@@ -2,12 +2,11 @@
 
 <template>
   <div class="home grid w-full">
-    <EventsCalendar link="calendar" />
-    <Tasting class="col-12" />
+    <Divider link="calendar" />
+    <EventsCalendar />
     <Divider link="private" />
     <Private class="col-12" />
     <Divider link="corporate" />
-    <Corproate class="col-12" />
-    <Divider />
+    <Corporate class="col-12" />
   </div>
 </template>
