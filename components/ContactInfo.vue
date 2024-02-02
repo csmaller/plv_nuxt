@@ -23,6 +23,7 @@ const { data: infoQuery } = await useAsyncData('info', () => {
     <ContentRenderer :value="infoQuery">
       <ContentRendererMarkdown :value="infoQuery" />
     </ContentRenderer>
+    <SocialMedia />
   </div>
 </template>
 <style lang="scss">
