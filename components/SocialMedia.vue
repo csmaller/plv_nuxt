@@ -4,7 +4,7 @@
     <div class="w-full sm:w-10 md:w-8 lg:w-full flex align-items-center justify-content-center gap-1">
       <div class="flex w-3 justify-items-center">
         <a href="https://www.facebook.com/NasketucketBayVineyard/?ref=bookmarks" target="_blank">
-          <img src="img/facebook.png" class="social-portrait" />
+          <img src="img/fb.png" class="social-portrait" />
         </a>
       </div>
       <div class="flex w-4 flex justify-items-center">
