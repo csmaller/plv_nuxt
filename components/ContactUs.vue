@@ -104,23 +104,23 @@ const doToast = () => {
     method="POST"
     netlify
     netlify-honeypot
-    class="contact-us-form flex flex-wrap sm:w-full lg:w-10 p-3 gap-3"
+    class="contact-us-form flex flex-wrap w-full sm:w-full lg:w-10 p-3 gap-3"
     v-bind:style="{ backgroundImage: 'url(' + contactQuery.image + ')' }"
     @submit.prevent="handleSubmit"
   >
     <div class="flex w-full justify-content-center">
       <h3>{{ contactQuery.header }}</h3>
     </div>
-    <div class="w-full pt-5">
+    <div class="w-full justify-content-center pt-5">
       <input type="hidden" name="form-name" value="plvContact" />
-      <div class="flex flex-row">
-        <div class="field flex w-6 pr-2 py-4">
+      <div class="flex flex-column sm:flex-column lg:flex-row">
+        <div class="flex w-12 sm:w-12 lg:w-6 pr-2 py-4">
           <InputText class="w-full p-2" id="name" v-model="v$.name.$model" name="name" placeholder="Enter your name" />
           <div v-for="error of v$.name.$errors" :key="error.$uid" class="input-errors">
             <div class="p-error">{{ error.$message }}</div>
           </div>
         </div>
-        <div class="field flex w-6 py-4 pl-2">
+        <div class="flex w-12 sm:w-12 lg:w-6 py-4 pl-2">
           <InputText
             id="email"
             class="w-full p-2"
@@ -133,6 +133,7 @@ const doToast = () => {
           </div>
         </div>
       </div>
+
       <div class="field flex flex-column">
         <textarea
           id="message"
@@ -147,7 +148,13 @@ const doToast = () => {
         </div>
       </div>
       <div class="w-full flex justify-content-end px-2">
-        <Button id="save_btn" type="submit" label="SEND" :disabled="v$.$invalid" class="button w-3 py-2 mt-4" />
+        <Button
+          id="save_btn"
+          type="submit"
+          label="SEND"
+          :disabled="v$.$invalid"
+          class="button w-12 sm:w-12 lg:w-3 py-2 mt-4"
+        />
       </div>
     </div>
   </form>

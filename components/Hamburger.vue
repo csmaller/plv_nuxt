@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
-
+import { links } from '@/utils/links';
 const show = ref<boolean>(false);
 
 const toggleMenu = () => {
@@ -9,13 +9,14 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <div class="sm:flex md:hidden">
+  <div class="flex sm:flex md:hidden">
     <label id="hamburger-menu" @click="toggleMenu">
       <nav id="sidebar-menu" :class="show ? `show-menu` : null">
         <ul>
-          <li><RouterLink to="/" v-text="`Home`" /></li>
-          <li><RouterLink to="/about" v-text="`About`" /></li>
-          <li><RouterLink to="/contact" v-text="`Contact`" /></li>
+          <li><NavDropdown header="HOME" :links="links.home" url="/" :is-mobile="true" /></li>
+          <li><NavDropdown header="VISIT" :links="links.visit" url="/visit#tasting" :is-mobile="true" /></li>
+          <li><NavDropdown header="EVENTS" :links="links.events" url="/events#calendar" :is-mobile="true" /></li>
+          <li><NavDropdown header="CONTACT" :links="links.contact" url="/contact#contact_us" :is-mobile="true" /></li>
         </ul>
       </nav>
     </label>
@@ -26,9 +27,9 @@ const toggleMenu = () => {
 
 <style lang="scss">
 #hamburger-menu {
-  width: 50px;
+  width: 75px;
   cursor: pointer;
-  height: 50px;
+  height: 75px;
   display: block;
   border: none;
   padding: 0px;
@@ -51,28 +52,30 @@ const toggleMenu = () => {
 #hamburger-menu #sidebar-menu {
   position: fixed;
   top: 0;
-
+  overflow-y: scroll;
   left: 50%;
   transform: translateX(-50%);
-  width: 240px;
-  height: 100%;
-  background-color: gray;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
   padding: 0px 10px;
-  box-sizing: border-box;
   transition: 0.3s;
   z-index: 1001;
   visibility: hidden;
 
   ul {
-    margin-top: 30px;
+    margin-top: 40px;
     list-style: none;
-    line-height: 55px;
-    border: 1px solid red;
+    background-color: white;
+
+    li {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   }
 
   a {
-    color: white;
-    margin-right: 20px;
+    color: black;
   }
 }
 

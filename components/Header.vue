@@ -1,29 +1,5 @@
 <script lang="ts" setup>
-const links = {
-  home: [
-    { label: 'ABOUT', url: '/#about' },
-    { label: 'HISTORY', url: '/#history' },
-    { label: 'WINES', url: '/#wines' },
-    { label: 'ORCHARD', url: '/#orchard' },
-    { label: 'STORE', url: '/#store' },
-  ],
-  visit: [
-    { label: 'TASTING ROOM', url: '/visit#tasting' },
-    { label: 'VINEYARD TOURS', url: '/visit#tours' },
-    { label: 'PICNIC IN THE VINES', url: '/visit#picnic' },
-    { label: 'PROPOSAL PACKAGE', url: '/visit#proposal' },
-    { label: 'PRIVATE FIRE PITS', url: '/visit#firepit' },
-  ],
-  events: [
-    { label: 'EVENTS CALENDAR', url: '/events#calendar' },
-    { label: 'PRIVATE EVENTS', url: '/events#private' },
-    { label: 'CORPORATE EVENTS', url: '/events#corporate' },
-  ],
-  contact: [
-    { label: 'CONTACT US', url: '/contact#contact_us' },
-    { label: 'FAQS', url: '/contact#faqs' },
-  ],
-};
+import { links } from '@/utils/links';
 </script>
 <template>
   <div class="header grid align-items-start">
@@ -47,7 +23,7 @@ const links = {
       <div class="col"></div>
     </div>
     <div
-      class="sm-header w-full px-3 logo-container sm:flex md:hidden logo mt-0 align-items-center justify-content-between"
+      class="sm-header w-full px-3 logo-container flex sm:flex md:hidden logo mt-0 align-items-center justify-content-between"
     >
       <a href="/"><img src="/img/new_logo.png" /></a>
       <Hamburger />

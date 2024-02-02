@@ -1,9 +1,9 @@
 <template>
   <div class="grid">
-    <div class="contact-container col-3 h-full sticky">
+    <div class="contact-container col-12 sm:col-12 lg:col-3 h-auto sm:h-auto lg:h-full flex sm:flex lg:sticky">
       <ContactInfo />
     </div>
-    <div class="col-9">
+    <div class="content-container col-12 sm:col-12 lg:col-9">
       <Divider link="contact_us" />
       <ContactUs />
       <Divider />
@@ -20,6 +20,22 @@
 
   a {
     font-family: var(--font-candara);
+  }
+}
+
+@media (max-width: 760px) {
+  .contact-container {
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    height: auto;
+    display: flex;
+  }
+
+  .content-container {
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
   }
 }
 </style>

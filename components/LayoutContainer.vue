@@ -89,6 +89,15 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
       .blurb {
         width: 100%;
         padding: 6px !important;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+      }
+
+      .img-container {
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
       }
     }
   }
