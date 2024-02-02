@@ -1,6 +1,6 @@
 <template>
   <div class="grid">
-    <div class="contact-container col-12 sm:col-12 lg:col-3 h-auto sm:h-auto lg:h-full flex sm:flex lg:sticky">
+    <div class="contact-container col-12 sm:col-12 lg:col-3 h-auto sm:h-auto lg:h-full sticky">
       <ContactInfo />
     </div>
     <div class="content-container col-12 sm:col-12 lg:col-9">
@@ -17,7 +17,7 @@
 .contact-container {
   background-color: var(--color-light-green);
   font-family: var(--font-candara);
-
+  top: 147px;
   a {
     font-family: var(--font-candara);
   }
@@ -29,7 +29,8 @@
     -webkit-order: 1;
     order: 1;
     height: auto;
-    display: flex;
+    display: flex !important;
+    position: relative !important;
   }
 
   .content-container {

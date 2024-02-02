@@ -19,7 +19,6 @@ const props = withDefaults(defineProps<PropsInterface>(), {
 const { header, links, url, isMobile } = toRefs(props);
 
 const toggleMenu = (shouldShowMenu: boolean) => {
-  console.log(isMobile.value);
   if (!isMobile.value) showMenu.value = shouldShowMenu;
 };
 

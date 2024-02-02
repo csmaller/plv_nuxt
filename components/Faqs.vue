@@ -21,6 +21,11 @@ const { data: faqsQuery } = await useAsyncData('faqs', () => {
   p {
     font-family: var(--font-candara);
     font-size: 11px;
+    text-align: left;
+
+    @media (max-width: 760px) {
+      font-size: 14px;
+    }
   }
 }
 </style>
