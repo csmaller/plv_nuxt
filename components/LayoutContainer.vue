@@ -13,7 +13,7 @@ const imgOrder = computed(() => (position.value === 'left' ? 1 : 2));
 const backgroundImagePosition = computed(() => (position.value === 'left' ? 'right' : 'left'));
 </script>
 <template>
-  <div id="wrapper" class="w-full h-full overflow-hidden px-6">
+  <div id="wrapper" class="w-full h-full overflow-hidden px-0 sm:px-0 lg:px-6 text-center">
     <div class="content mt-3 flex flex-wrap justify-content-center">
       <div class="blurb p-6 col-12 md:col-6">
         <div v-if="header" class="layout-header" v-text="header" />

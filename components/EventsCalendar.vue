@@ -26,7 +26,7 @@ const calendarOptions = ref({
 </script>
 
 <template>
-  <div class="w-full p-8">
+  <div class="w-full p-1 sm:p-1 px-3 sm:px-3 lg:p-8">
     <FullCalendar :options="calendarOptions" />
   </div>
 </template>

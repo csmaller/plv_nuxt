@@ -2,13 +2,13 @@
 
 <template>
   <div class="home grid w-full">
-    <div class="col"></div>
-    <div class="col-3">
+    <div class="col hidden sm:hidden lg:flex"></div>
+    <div class="col-12 sm:col-12 lg:col-3">
       <ImageLink src="/img/barn-night-cropped.png" url="#about">
         <h3 class="w-full absolute top-5 text-center left-0">TASTING ROOM</h3>
       </ImageLink>
     </div>
-    <div class="col-4 flex-column">
+    <div class="col-12 sm:col-12 lg:col-4 flex-column">
       <ImageLink src="/img/randy-cropped.png" url="/events#calendar">
         <h3 class="w-full absolute bottom-10 left-5 text-white">UPCOMING EVENTS</h3>
       </ImageLink>
@@ -16,12 +16,12 @@
         <h3 class="w-full absolute bottom-10 right-10 text-right text-white">EXPERIENCES</h3>
       </ImageLink>
     </div>
-    <div class="col-3">
+    <div class="col-12 sm:col-12 lg:col-3">
       <ImageLink src="/img/wine-bottle.jpg" url="#wines">
         <h3 class="w-full absolute top-5 text-center left-0">WINES</h3>
       </ImageLink>
     </div>
-    <div class="col"></div>
+    <div class="col hidden sm:hidden lg:flex"></div>
     <Divider link="about" />
     <About class="col-12" />
     <Divider link="history" />
@@ -40,10 +40,6 @@ h3 {
   font-family: var(--font-baskerville);
   font-size: 22px;
   cursor: pointer;
-
-  @media (max-width: 550px) {
-    font-size: 15px;
-  }
 }
 .top-10 {
   top: 10%;
