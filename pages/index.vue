@@ -4,7 +4,7 @@
   <div class="home grid w-full">
     <div class="col hidden sm:hidden lg:flex"></div>
     <div class="col-12 sm:col-12 lg:col-3">
-      <ImageLink src="/img/barn-night-cropped.png" url="#about">
+      <ImageLink src="/img/barn-night-cropped.png" url="/visit#tasting">
         <h3 class="w-full absolute top-5 text-center left-0">TASTING ROOM</h3>
       </ImageLink>
     </div>
@@ -12,7 +12,7 @@
       <ImageLink src="/img/randy-cropped.png" url="/events#calendar">
         <h3 class="w-full absolute bottom-10 left-5 text-white">UPCOMING EVENTS</h3>
       </ImageLink>
-      <ImageLink src="/img/picnic-cropped.png" url="#about">
+      <ImageLink src="/img/picnic-cropped.png" url="/visit#tours">
         <h3 class="w-full absolute bottom-10 right-10 text-right text-white">EXPERIENCES</h3>
       </ImageLink>
     </div>
