@@ -8,7 +8,12 @@ const { data: testQuery } = await useAsyncData('test', () => {
 
 <template>
   <div v-if="testQuery">
-    <LayoutContainer :is-slider="true" :position="testQuery?.image_position" :header="testQuery?.header">
+    <LayoutContainer
+      :is-slider="false"
+      :position="testQuery?.image_position"
+      :header="testQuery?.header"
+      :image="testQuery?.image"
+    >
       <ContentRenderer :value="testQuery">
         <ContentRendererMarkdown :value="testQuery" />
       </ContentRenderer>

@@ -9,6 +9,7 @@ const { data: historyQuery } = await useAsyncData('history', () => {
 <template>
   <div v-if="historyQuery">
     <LayoutContainer
+      :is-slider="true"
       :image="historyQuery?.image"
       :position="historyQuery?.image_position"
       :header="historyQuery?.header"
