@@ -40,12 +40,13 @@ h5{
 }
 
 a {
-    color: var(--color-primary);
+    color: var(--color-link);
     font-family: var(--font-baskerville);
     cursor:pointer;
+    text-decoration: underline;
 
     &:hover{
-        color: var(--color-secondary);
+        color: var(--color-alert);
     }
 
     &:active{

@@ -152,11 +152,25 @@ collections:
           options: ['left', 'right'],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'images'
+  - name: 'tasting_images'
     extension: 'json'
-    label: 'Image Slider'
+    label: 'Tasting Room Image Slider'
     files:
-      - file: 'content/json/images.json'
+      - file: 'content/json/tasting.json'
+        label: 'Tasting Room Image Slider'
+        name: 'tasting_imageList'
+        fields:
+          - name: images
+            label: images
+            widget: list
+            summary: “{{fields.image}}”
+            fields:
+              - { label: “Image”, name: image, widget: image }
+  - name: 'history_images'
+    extension: 'json'
+    label: 'History Image Slider'
+    files:
+      - file: 'content/json/history.json'
         label: 'Image Slider'
         name: 'imageList'
         fields:

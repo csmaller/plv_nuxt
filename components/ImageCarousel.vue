@@ -1,7 +1,15 @@
 <script lang="ts" setup>
-import images from '@/content/json/images.json';
+interface Image {
+  image: string;
+}
 
-const currentSlide = ref(0);
+interface Props {
+  images: Image[];
+}
+
+const props = defineProps<Props>();
+const { images } = toRefs(props);
+
 const responsiveOptions = ref([
   {
     breakpoint: '1400px',
@@ -30,7 +38,7 @@ const responsiveOptions = ref([
   <div class="container">
     <Carousel
       :showNavigators="false"
-      :value="images.images"
+      :value="images"
       :numVisible="1"
       :numScroll="1"
       verticalViewPortHeight="300"

@@ -1,13 +1,18 @@
 <script lang="ts" setup>
+export interface Image {
+  image: string;
+}
+
 interface PropsInterface {
   position: string;
   image?: string;
   header?: string;
   isSlider?: boolean;
+  images?: Image[];
 }
 
 const props = defineProps<PropsInterface>();
-const { position, image, header, isSlider } = toRefs(props);
+const { position, image, header, isSlider, images } = toRefs(props);
 const order = computed(() => (position.value === 'left' ? 2 : 1));
 const imgOrder = computed(() => (position.value === 'left' ? 1 : 2));
 const backgroundImagePosition = computed(() => (position.value === 'left' ? 'right' : 'left'));
@@ -21,7 +26,7 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
       </div>
       <div class="img-container col-12 md:col-6">
         <img v-if="!isSlider" :src="image" class="img" />
-        <ImageCarousel v-else />
+        <ImageCarousel v-else-if="images" :images="images" />
       </div>
     </div>
   </div>

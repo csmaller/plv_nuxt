@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import images from '@/content/json/history.json';
 const { data: historyQuery } = await useAsyncData('history', () => {
   return queryContent('home')
     .where({ title: { $eq: 'history' } })
@@ -13,6 +14,7 @@ const { data: historyQuery } = await useAsyncData('history', () => {
       :image="historyQuery?.image"
       :position="historyQuery?.image_position"
       :header="historyQuery?.header"
+      :images="images.images"
     >
       <ContentRenderer :value="historyQuery">
         <ContentRendererMarkdown :value="historyQuery" />
