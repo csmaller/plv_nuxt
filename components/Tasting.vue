@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const name = 'tasting-room';
+import tasting from '@/content/json/tasting.json';
 
 const { data: tastingQuery } = await useAsyncData(name, () => {
   return queryContent('visit')
@@ -11,7 +12,8 @@ const { data: tastingQuery } = await useAsyncData(name, () => {
 <template>
   <div v-if="tastingQuery">
     <LayoutContainer
-      :image="tastingQuery?.image"
+      :is-slider="true"
+      :images="tasting.images"
       :position="tastingQuery?.image_position"
       :header="tastingQuery?.header"
     >

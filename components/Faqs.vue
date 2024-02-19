@@ -8,11 +8,11 @@ const { data: faqsQuery } = await useAsyncData('faqs', () => {
 
 <template>
   <div v-if="faqsQuery" class="faq">
-    <LayoutContainer :image="faqsQuery?.image" :position="faqsQuery?.image_position" :header="faqsQuery?.header">
+    <NoImageLayoutContainer :header="faqsQuery?.header">
       <ContentRenderer :value="faqsQuery">
         <ContentRendererMarkdown :value="faqsQuery" />
       </ContentRenderer>
-    </LayoutContainer>
+    </NoImageLayoutContainer>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ const { data: faqsQuery } = await useAsyncData('faqs', () => {
 .faq {
   p {
     font-family: var(--font-candara);
-    font-size: 11px;
+    font-size: 14px;
     text-align: left;
 
     @media (max-width: 760px) {

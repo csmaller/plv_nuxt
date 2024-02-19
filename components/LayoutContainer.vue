@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-export interface Image {
+interface Image {
   image: string;
 }
 
