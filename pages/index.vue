@@ -9,7 +9,7 @@
       </ImageLink>
     </div>
     <div class="col-12 sm:col-12 lg:col-4 flex-column">
-      <ImageLink src="/img/randy-cropped.png" url="/events#calendar">
+      <ImageLink src="/img/jessi.jpeg" url="/events#calendar">
         <h3 class="w-full absolute bottom-10 left-5 text-white">UPCOMING EVENTS</h3>
       </ImageLink>
       <ImageLink src="/img/picnic-cropped.png" url="/visit#tours">
