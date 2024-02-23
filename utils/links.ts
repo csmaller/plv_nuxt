@@ -11,7 +11,7 @@ export const links = {
     { label: 'VINEYARD TOURS', url: '/visit#tours' },
     { label: 'PICNIC IN THE VINES', url: '/visit#picnic' },
     { label: 'PROPOSAL PACKAGE', url: '/visit#proposal' },
-    { label: 'PRIVATE FIRE PITS', url: '/visit#firepit' },
+    // { label: 'PRIVATE FIRE PITS', url: '/visit#firepit' },
   ],
   events: [
     { label: 'EVENTS CALENDAR', url: '/events#calendar' },

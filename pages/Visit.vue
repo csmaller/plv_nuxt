@@ -10,8 +10,8 @@
     <Picnic class="col-12" />
     <Divider link="proposal" />
     <Proposal class="col-12" />
-    <Divider link="firepit" />
-    <FirePit class="col-12" />
+    <!-- <Divider link="firepit" />
+    <FirePit class="col-12" /> -->
     <Divider />
   </div>
 </template>
