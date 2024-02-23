@@ -20,14 +20,13 @@ const { data: wines } = await useAsyncData(name, () => {
 
 <style scoped lang="scss">
 .wine-list {
+  padding-bottom: 16px;
   :deep(p) {
-    margin-top: 8px;
-    margin-bottom: 10px;
-    line-height: 18px;
-
-    strong {
-      margin-top: 12px;
-    }
+    margin-top: 4px;
+    line-height: 16px;
+  }
+  :deep(h3) {
+    margin-top: 23px;
   }
 }
 </style>
