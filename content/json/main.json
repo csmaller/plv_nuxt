@@ -1,0 +1,10 @@
+{
+  "images": [
+    {
+      "tasting_image": "/img/barn-night-cropped.png",
+      "wine_image": "/img/wine-bottle.jpg",
+      "events_image": "/img/jessi.jpeg",
+      "experience_image": "/img/picnic-cropped.png"
+    }
+  ]
+}
