@@ -166,6 +166,27 @@ collections:
             summary: “{{fields.image}}”
             fields:
               - { label: “Image”, name: image, widget: image }
+  - name: 'main_images'
+    extension: 'json'
+    label: 'Main Page Images'
+    files:
+      - file: 'content/json/main.json'
+        label: 'Main IMages'
+        name: 'imageList'
+        fields:
+          - name: images
+            label: images
+            widget: list
+            summary: “{{fields.image}}”
+            fields:
+              - { label: “Tasting Image”, name: tasting_image, widget: image }
+              - { label: “Wine Image”, name: wine_image, widget: image }
+              - { label: “Events Image”, name: events_image, widget: image }
+              - {
+                  label: “Experiences Image”,
+                  name: experience_image,
+                  widget: image,
+                }
   - name: 'history_images'
     extension: 'json'
     label: 'History Image Slider'
