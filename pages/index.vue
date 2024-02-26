@@ -10,10 +10,10 @@
     <History class="col-12" />
     <Divider link="wines" />
     <Wines class="col-12" />
-    <Divider link="orchard" />
-    <Orchard class="col-12" />
     <Divider link="store" />
     <Store class="col-12" />
+    <Divider link="orchard" />
+    <Orchard class="col-12" />
   </div>
 </template>
 

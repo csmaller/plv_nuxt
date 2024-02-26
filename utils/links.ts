@@ -3,8 +3,8 @@ export const links = {
     { label: 'ABOUT', url: '/#about' },
     { label: 'HISTORY', url: '/#history' },
     { label: 'WINES', url: '/#wines' },
-    { label: 'ORCHARD', url: '/#orchard' },
     { label: 'STORE', url: '/#store' },
+    { label: 'ORCHARD', url: '/#orchard' },
   ],
   visit: [
     { label: 'TASTING ROOM', url: '/visit#tasting' },

@@ -10,7 +10,12 @@ const { data: wines } = await useAsyncData(name, () => {
 
 <template>
   <div v-if="wines" class="wine-list">
-    <LayoutContainer :image="wines?.image" :position="wines?.image_position" :header="wines?.header">
+    <LayoutContainer
+      :image="wines?.image"
+      :position="wines?.image_position"
+      background-size="90% 100%"
+      :header="wines?.header"
+    >
       <ContentRenderer :value="wines">
         <ContentRendererMarkdown :value="wines" />
       </ContentRenderer>

@@ -9,9 +9,10 @@ interface PropsInterface {
   header?: string;
   isSlider?: boolean;
   images?: Image[];
+  backgroundSize?: string;
 }
 
-const props = defineProps<PropsInterface>();
+const props = withDefaults(defineProps<PropsInterface>(), { backgroundSize: '65% 90%' });
 const { position, image, header, isSlider, images } = toRefs(props);
 const order = computed(() => (position.value === 'left' ? 2 : 1));
 const imgOrder = computed(() => (position.value === 'left' ? 1 : 2));
@@ -35,7 +36,7 @@ const backgroundImagePosition = computed(() => (position.value === 'left' ? 'rig
 #wrapper {
   .content {
     background-image: url(/img/bg-green.png);
-    background-size: 65% 90%;
+    background-size: v-bind(backgroundSize);
     background-position: v-bind(backgroundImagePosition);
     background-repeat: no-repeat;
 
