@@ -13,11 +13,9 @@ Nasketucket Bay Vineyard
 
 Fairhaven, MA 02719
 
-
-
 Phone: 774-259-5347
 
-email: nbvineyardevents@gmail.com
+email: info@peacelovevino.net
 
 <br/>
 
@@ -32,7 +30,5 @@ Friday 11-8
 Saturday 11-8
 
 Sunday 11-6
-
-
 
 FOLLOW US
