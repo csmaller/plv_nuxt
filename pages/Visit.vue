@@ -5,7 +5,7 @@
     <Divider link="tasting" />
     <Tasting class="col-12" />
     <Divider link="tours" />
-    <h1 class="ml-6 pl-3 experiences">EXPERIENCES</h1>
+    <h1 class="w-full text-center mt-4 experiences">EXPERIENCES</h1>
     <Tours class="col-12" />
     <Divider link="picnic" />
     <Picnic class="col-12" />
@@ -19,5 +19,7 @@
 <style lang="scss" scoped>
 .experiences {
   color: var(--color-gray-green);
+  font-family: var(--font-baskerville);
+  font-size: 36px;
 }
 </style>
