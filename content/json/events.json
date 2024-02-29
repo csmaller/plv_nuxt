@@ -1,3 +1,10 @@
 {
-  "events": []
+  "events": [
+    {
+      "date": "2024-02-29T19:32:59.977Z",
+      "title": "Easter Egg Hunt",
+      "description": "Tickets are on sale from March 4th through the 22nd. Come join us at Nasketucket Bay Vineyard for a fun-filled hour of hunting for colorful eggs hidden throughout the vineyard. Bring your friends and family for a day of excitement and laughter as you search high and low for the hidden treasures. Get ready to enjoy the beautiful surroundings of Nasketucket Bay Vineyard while participating in this classic Easter tradition. Don't forget to bring your Easter basket to collect all the eggs you find! Event admission is $5 per child, adult supervision is required. Adult admission is free!",
+      "payment_link": "https://www.eventbrite.com/e/easter-egg-hunt-tickets-849410588937"
+    }
+  ]
 }
