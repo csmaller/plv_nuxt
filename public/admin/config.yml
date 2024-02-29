@@ -218,4 +218,5 @@ collections:
               - { label: 'UUID', name: 'uuid', widget: uuid }
               - { name: date, widget: datetime }
               - { name: payment_link }
+              - { name: description, required: false }
               - { label: 'Event Details', name: 'body', widget: 'markdown' }
