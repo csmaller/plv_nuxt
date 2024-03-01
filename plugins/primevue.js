@@ -1,5 +1,6 @@
 import Button from 'primevue/button';
 import Carousel from 'primevue/carousel';
+import Dialog from 'primevue/dialog';
 import InputText from 'primevue/inputtext';
 import Menubar from 'primevue/menubar';
 import PrimeVue from 'primevue/config';
@@ -13,6 +14,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(PrimeVue, { ripple: true });
   nuxtApp.vueApp.component('Button', Button);
   nuxtApp.vueApp.use(ToastService);
+  nuxtApp.vueApp.component('Dialog', Dialog);
   nuxtApp.vueApp.component('Toast', Toast);
   nuxtApp.vueApp.component('InputText', InputText);
   nuxtApp.vueApp.component('Menubar', Menubar);
