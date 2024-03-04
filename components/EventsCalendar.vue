@@ -39,6 +39,7 @@ const calendarOptions = ref({
   initialView: 'dayGridMonth',
   dateClick: handleDateClick,
   eventClick: handleEventClick,
+  showNonCurrentDates: false,
   weekends: true,
   events: [],
 });
