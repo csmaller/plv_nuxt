@@ -204,7 +204,6 @@ collections:
   - name: 'events_calendar'
     label: 'Events Calendar'
     extension: 'json'
-
     files:
       - file: 'content/json/events.json'
         label: 'Events'
