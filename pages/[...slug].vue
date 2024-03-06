@@ -1,6 +1,6 @@
 <template>
   <main class="prose">
-  welcome to the main index page! here is some news...
-    <ContentDoc />
+    <h1>Error: That page does not exist</h1>
+    <a href="/">Go Home</a>
   </main>
 </template>
