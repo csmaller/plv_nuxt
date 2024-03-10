@@ -2,7 +2,11 @@
     border-radius: 1rem;
     overflow: hidden;
     width:50%;
-  
+
+    @media(max-width:600px){
+      width:90%;
+    }
+
     &.event-modal {
       .p-dialog-header,
       .p-dialog-content {
