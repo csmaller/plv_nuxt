@@ -39,5 +39,11 @@ const cancel = () => {
 <style lang="scss">
 :deep(.dialog-modal) {
   width: 500px;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 </style>

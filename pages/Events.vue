@@ -3,7 +3,7 @@
 <template>
   <div class="home grid w-full">
     <Divider link="calendar" />
-    <EventsCalendar />
+    <EventsCalendar class="col-12" />
     <Divider link="private" />
     <Private class="col-12" />
     <Divider link="corporate" />
