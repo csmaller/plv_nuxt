@@ -16,7 +16,7 @@ const toggleMenu = () => {
           <li><NavDropdown header="HOME" :links="links.home" url="/" :is-mobile="true" /></li>
           <li><NavDropdown header="VISIT" :links="links.visit" url="/visit#tasting" :is-mobile="true" /></li>
           <li><NavDropdown header="EVENTS" :links="links.events" url="/events#calendar" :is-mobile="true" /></li>
-          <li><NavDropdown header="CONTACT" :links="links.contact" url="/contact#contact_us" :is-mobile="true" /></li>
+          <!-- <li><NavDropdown header="CONTACT" :links="links.contact" url="/contact#contact_us" :is-mobile="true" /></li>-->
         </ul>
       </nav>
     </label>
