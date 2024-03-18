@@ -18,7 +18,8 @@ import { links } from '@/utils/links';
         <NavDropdown header="EVENTS" :links="links.events" url="/events#calendar" />
       </div>
       <div class="col-2 nav-dropdown">
-        <NavDropdown header="CONTACT" :links="links.contact" url="/contact#contact_us" />
+        <!--       
+        <NavDropdown header="CONTACT" :links="links.contact" url="/contact#contact_us" /> -->
       </div>
       <div class="col"></div>
     </div>

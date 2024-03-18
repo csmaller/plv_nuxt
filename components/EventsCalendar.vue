@@ -18,7 +18,6 @@ const handleDateClick = (arg: any) => {
 };
 
 const handleCancel = () => {
-  console.log('here');
   showDialog.value = false;
 };
 
