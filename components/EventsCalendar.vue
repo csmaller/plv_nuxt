@@ -36,7 +36,6 @@ const handleEventClick = (arg: any) => {
 const calendarOptions = ref({
   plugins: [dayGridPlugin, interactionPlugin],
   initialView: 'dayGridMonth',
-  dateClick: handleDateClick,
   eventClick: handleEventClick,
   showNonCurrentDates: false,
   weekends: true,
