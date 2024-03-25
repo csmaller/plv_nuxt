@@ -47,14 +47,14 @@ const error = ref<boolean>(false);
 
 const resetForm = () => {
   form.value = { ...defaultForm };
+  v$.value.$reset();
 };
 
-const handleSubmit = (event) => {
+const handleSubmit = async (event) => {
   event.preventDefault();
   error.value = false;
   const myForm = event.target;
   const formData = new FormData(myForm);
-  console.log(formData);
 
   fetch('/', {
     method: 'POST',
@@ -90,6 +90,7 @@ const encode = (data: FormInterface) => {
  * Display the toast message.
  */
 const doToast = () => {
+  console.log('toast');
   toast.add({
     severity: error.value ? 'error' : 'success',
     summary: error.value ? 'Error' : 'Sent',

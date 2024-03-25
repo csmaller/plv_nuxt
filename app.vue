@@ -36,6 +36,7 @@ colorMode.preference = 'light';
         </div>
       </div>
     </div>
+    <Toast />
     <footer class="flex w-full text-center justify-content-center align-items-center pt-2">
       <Address
         :address_name="footerQuery.address_name"
