@@ -54,6 +54,7 @@ const handleSubmit = (event) => {
   error.value = false;
   const myForm = event.target;
   const formData = new FormData(myForm);
+  console.log(formData);
 
   fetch('/', {
     method: 'POST',
@@ -100,7 +101,7 @@ const doToast = () => {
 
 <template>
   <form
-    name="plvContact"
+    name="plvContactUsForm"
     method="POST"
     netlify
     netlify-honeypot
@@ -112,7 +113,7 @@ const doToast = () => {
       <h3>{{ contactQuery.header }}</h3>
     </div>
     <div class="w-full justify-content-center pt-5">
-      <input type="hidden" name="form-name" value="plvContact" />
+      <input type="hidden" name="form-name" value="plvContactUsForm" />
       <div class="flex flex-column sm:flex-column lg:flex-row">
         <div class="flex w-12 sm:w-12 lg:w-6 pr-2 py-4">
           <InputText class="w-full p-2" id="name" v-model="v$.name.$model" name="name" placeholder="Enter your name" />
