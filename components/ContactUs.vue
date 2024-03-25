@@ -93,6 +93,7 @@ const doToast = () => {
     v-bind:style="{ backgroundImage: 'url(' + contactQuery.image + ')' }"
     @submit.prevent="handleSubmit"
   >
+    <input type="hidden" name="form-name" value="peace-love-vino-contact" />
     <div class="flex w-full justify-content-center">
       <h3>{{ contactQuery.header }}</h3>
     </div>
