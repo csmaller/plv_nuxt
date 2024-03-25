@@ -90,7 +90,6 @@ const encode = (data: FormInterface) => {
  * Display the toast message.
  */
 const doToast = () => {
-  console.log('toast');
   toast.add({
     severity: error.value ? 'error' : 'success',
     summary: error.value ? 'Error' : 'Sent',
