@@ -58,32 +58,16 @@ const handleSubmit = async (event) => {
 
   fetch('/', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams(formData).toString(),
   })
     .then(() => {
-      doToast();
       resetForm();
+      doToast();
     })
     .catch((error) => {
       error.value = true;
       doToast();
     });
-};
-
-/**
- *
- * @param data
- * encode the query params
- */
-const encode = (data: FormInterface) => {
-  const formData = new FormData();
-
-  for (const key of Object.keys(data)) {
-    formData.append(key, data[key as keyof FormInterface]);
-  }
-
-  return formData;
 };
 
 /**
@@ -101,9 +85,9 @@ const doToast = () => {
 
 <template>
   <form
-    name="plvContactUsForm"
+    name="peace-love-vino-contact"
     method="POST"
-    netlify
+    data-netlify="true"
     netlify-honeypot
     class="contact-us-form flex flex-wrap w-full sm:w-full lg:w-10 p-3 gap-3"
     v-bind:style="{ backgroundImage: 'url(' + contactQuery.image + ')' }"
@@ -113,7 +97,6 @@ const doToast = () => {
       <h3>{{ contactQuery.header }}</h3>
     </div>
     <div class="w-full justify-content-center pt-5">
-      <input type="hidden" name="form-name" value="plvContactUsForm" />
       <div class="flex flex-column sm:flex-column lg:flex-row">
         <div class="flex w-12 sm:w-12 lg:w-6 pr-2 py-4">
           <InputText class="w-full p-2" id="name" v-model="v$.name.$model" name="name" placeholder="Enter your name" />
