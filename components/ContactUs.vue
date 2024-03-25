@@ -58,6 +58,7 @@ const handleSubmit = async (event) => {
 
   fetch('/', {
     method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams(formData).toString(),
   })
     .then(() => {
@@ -87,7 +88,7 @@ const doToast = () => {
   <form
     name="peace-love-vino-contact"
     method="POST"
-    data-netlify="true"
+    netlify
     netlify-honeypot
     class="contact-us-form flex flex-wrap w-full sm:w-full lg:w-10 p-3 gap-3"
     v-bind:style="{ backgroundImage: 'url(' + contactQuery.image + ')' }"
