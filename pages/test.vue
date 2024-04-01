@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <form name="plvContactUsForm" method="POST" netlify action="/thanks">
-    <input type="hidden" name="form-name" value="plvContactUsForm" />
+  <form name="plvContactUsFormtest" method="POST" netlify action="/thanks">
+    <input type="hidden" name="form-name" value="plvContactUsFormtest" />
 
     <input class="w-full p-2" id="name" name="name" placeholder="Enter your name" />
 
