@@ -86,17 +86,17 @@ const doToast = () => {
 
 <template>
   <form
-    name="peace-love-vino-contact"
+    name="plvContactUsForm"
     method="POST"
     netlify
     netlify-honeypot
     class="contact-us-form flex flex-wrap w-full sm:w-full lg:w-10 p-3 gap-3"
-    v-bind:style="{ backgroundImage: 'url(' + contactQuery.image + ')' }"
+    v-bind:style="{ backgroundImage: 'url(' + contactQuery?.image + ')' }"
     @submit.prevent="handleSubmit"
   >
-    <input type="hidden" name="form-name" value="peace-love-vino-contact" />
+    <input type="hidden" name="form-name" value="plvContactUsForm" />
     <div class="flex w-full justify-content-center">
-      <h3>{{ contactQuery.header }}</h3>
+      <h3>{{ contactQuery?.header }}</h3>
     </div>
     <div class="w-full justify-content-center pt-5">
       <div class="flex flex-column sm:flex-column lg:flex-row">
