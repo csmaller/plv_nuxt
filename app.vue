@@ -46,7 +46,7 @@ colorMode.preference = 'light';
         :phone="footerQuery.phone"
       />
     </footer>
-    <Toast />
+    <!-- <Toast /> -->
   </div>
 </template>
 
