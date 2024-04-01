@@ -1,4 +1,27 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useToast } from 'primevue/usetoast';
+
+const route = useRoute();
+const toast = useToast();
+
+onMounted(() => {
+  if (route.query.contacted) doToast();
+  doToast();
+});
+
+const doToast = async () => {
+  toast.add({
+    severity: 'success',
+    summary: 'Sent',
+    detail: 'Thank you! Your info has been sent over!',
+    life: 3000,
+  });
+};
+
+/**
+ * Display the toast message.
+ */
+</script>
 
 <template>
   <div class="home grid w-full">

@@ -25,7 +25,6 @@ colorMode.preference = 'light';
 </script>
 <template>
   <div id="default-layout">
-    <Toast />
     <div id="main-container" class="mt-0">
       <div id="main-container-scroll" class="flex flex-column">
         <Header />
@@ -47,6 +46,7 @@ colorMode.preference = 'light';
         :phone="footerQuery.phone"
       />
     </footer>
+    <Toast />
   </div>
 </template>
 
