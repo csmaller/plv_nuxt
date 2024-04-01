@@ -88,6 +88,7 @@ const doToast = () => {
   <form
     name="plvContactUsForm"
     method="POST"
+    action="/thanks"
     netlify
     netlify-honeypot
     class="contact-us-form flex flex-wrap w-full sm:w-full lg:w-10 p-3 gap-3"
