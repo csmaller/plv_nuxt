@@ -1,7 +1,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   plugins: ['~/plugins/preview.client.js'],
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/color-mode'],
+  modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/color-mode', 'nuxt-gtag'],
+  gtag: {
+    id: 'G-W6BF2035L0',
+  },
   build: {
     transpile: ['primevue'],
   },
@@ -15,6 +18,7 @@ export default defineNuxtConfig({
     classSuffix: '-mode',
     storageKey: 'nuxt-color-mode',
   },
+
   css: ['primevue/resources/themes/saga-blue/theme.css', 'primevue/resources/primevue.css', 'primeflex/primeflex.css'],
   vite: {
     css: {
