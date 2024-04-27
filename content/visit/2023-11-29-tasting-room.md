@@ -7,7 +7,7 @@ description: "visit our tasting room "
 image: /img/img_e5855.jpg
 image_position: right
 ---
-The tasting room is open seasonally from April through November for the 2024 season.
+The tasting room is open seasonally from April through November for the 2024 season. No reservations required unless otherwise noted for special ticketed events.
 
 **Hours of Operation:**
 
