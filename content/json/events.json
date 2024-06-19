@@ -1,104 +1,6 @@
 {
   "events": [
     {
-      "date": "2024-05-03T19:00:09.884Z",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!** \n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.* \n\n**Today's Food Truck:** [Blount Clam Shack](https://www.facebook.com/blountfoodtruck)",
-      "title": "Fido Fridays and Blount Clam Shack Food Truck"
-    },
-    {
-      "date": "2024-05-04T19:00:10.459Z",
-      "title": "No Joke Smoke Food Truck from 3-8",
-      "body": "[No Joke Smoke](https://www.facebook.com/nojokesmokebbq) Food Truck from 3-8"
-    },
-    {
-      "date": "2024-05-05T16:00:10.989Z",
-      "title": "Mac's Screaming Corn & Tacos Food Truck from 12-5",
-      "description": "Mac's Screaming Corn & Tacos Food Truck from 12-5",
-      "body": "[Mac's Screaming Corn & Tacos](https://www.facebook.com/macsscreamingcornandtacos) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-05-05T18:00:11.478Z",
-      "title": "Live Music from 2-5: Chip Allen & Adriana \"Old Souls\"",
-      "body": "Live Music from 2-5: [Chip Allen](https://www.facebook.com/ChipAllenMusic) & Adriana \"Old Souls\""
-    },
-    {
-      "date": "2024-05-10T17:30:12.027Z",
-      "title": "Fido Fridays & Newport Chowder Company Food Truck",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 1:30-6:30.*\n\n**Today's Food Truck:** [Newport Chowder Company](https://www.facebook.com/NewportChowderCompany)"
-    },
-    {
-      "date": "2024-05-11T17:30:28.694Z",
-      "title": "Island Girl Food Truck from 1:30-6:30",
-      "body": "[Island Girl](https://www.facebook.com/islandgirlcateringllc) Food Truck from 1:30-6:30"
-    },
-    {
-      "date": "2024-05-12T15:00:28.835Z",
-      "title": "Mother's Day Brunch - Vineyard closed to the public from 11-2",
-      "payment_link": "https://www.eventbrite.com/e/mothers-day-brunch-tickets-851867166627",
-      "body": "**THE VINEYARD WILL BE CLOSED TO THE PUBLIC FROM 11-2 DURING THE MOTHER'S DAY BRUNCH. THIS IS A TICKETED, 21+ EVENT.**\n\nBuffet-style brunch, live music and a wine tasting (or 1 glass of wine) are included in your ticket price. Brunch will be served from 11-1:00. Live music by [Mike & Leah](https://www.facebook.com/jmichaelleach) is from 11-1:30. There are no table reservations for this event. Just grab a plate and sit wherever you like! The vineyard opens back up to the public at 2."
-    },
-    {
-      "date": "2024-05-12T18:00:29.036Z",
-      "title": "Live Music from 2-5: Robert Chandler",
-      "body": "Live Music from 2-5: [Robert Chandler](https://robertchandler.us/)"
-    },
-    {
-      "date": "2024-05-12T18:00:29.286Z",
-      "title": "Lawless Food Truck from 2-5",
-      "body": "[Lawless](https://www.facebook.com/lawlessfoodma) Food Truck from 2-5"
-    },
-    {
-      "date": "2024-05-17T17:30:29.773Z",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n**Join us for a very special Fido Friday! We will be hosting a dog adoption event with Sunny Paws Rescue from 3-7!** \n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 1:30-6:30.*\n\n**Today's Food Truck: [BBQ Y Mas](https://www.facebook.com/profile.php?id=100089350611273)**",
-      "title": "Dog Adoption Event Fido Friday & BBQ Y Mas Food Truck"
-    },
-    {
-      "date": "2024-05-18T17:30:30.216Z",
-      "title": "Butt Hutt BBQ Food Truck from 1:30-6:30",
-      "body": "[Butt Hutt BBQ](https://www.facebook.com/profile.php?id=100086472876436) Food Truck from 1:30-6:30"
-    },
-    {
-      "date": "2024-05-19T16:00:17.458Z",
-      "title": "No Joke Smoke Food Truck from 12-5",
-      "body": "[No Joke Smoke](https://www.facebook.com/nojokesmokebbq) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-05-19T18:00:17.984Z",
-      "title": "Live Music from 2-5: Wine Country Duo",
-      "body": "Live Music from 2-5: Wine Country Duo"
-    },
-    {
-      "date": "2024-05-24T21:00:18.407Z",
-      "title": "Fido Fridays & Phoenix on the Fly Food Truck",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 5-7.*\n\n**Today's Food Truck: Phoenix on the Fly**"
-    },
-    {
-      "date": "2024-05-25T17:30:18.734Z",
-      "title": "Phoenix on the Fly Food Truck from 1:30-6:30",
-      "body": "[Phoenix on the Fly](https://www.facebook.com/profile.php?id=100063697864255) Food Truck from 1:30-6:30"
-    },
-    {
-      "date": "2024-05-26T16:00:19.459Z",
-      "title": "Mac's Screaming Corn & Tacos Food Truck from 12-5",
-      "body": "[Mac's Screaming Corn & Tacos](https://www.facebook.com/macsscreamingcornandtacos) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-05-26T18:00:20.080Z",
-      "title": "Live Music from 2-5: Devin & Sy",
-      "body": "Live Music from 2-5: Devin & Sy"
-    },
-    {
-      "date": "2024-05-27T16:00:18.191Z",
-      "title": "Memorial Day Celebration",
-      "body": "Finish out Memorial Day weekend right at Nasketucket Bay Vineyard with great live music by [Mike and Adlie](https://www.facebook.com/adlieandmikeacoustic) and some summer comfort foods from the legendary [Oxford Creamery](https://www.facebook.com/TheOxfordCreamery) food truck: the Oxcart! **THIS IS A 21+ EVENT.**",
-      "payment_link": "https://www.eventbrite.com/e/memorial-day-celebration-tickets-855555659007"
-    },
-    {
-      "date": "2024-05-31T19:00:20.505Z",
-      "title": "Fido Fridays and Artisan Pig Food Truck ",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck:** [Artisan Pig Pizza](https://www.facebook.com/theartisanpig)"
-    },
-    {
       "date": "2024-06-01T17:30:52.544Z",
       "title": "The Pit Stop Food Truck from 1:30-6:30",
       "body": "Food Truck from 1:30-6:30 - [The Pit Stop Street Food](https://www.facebook.com/pitstopstreetfood)"
@@ -162,11 +64,6 @@
       "date": "2024-06-21T20:00:16.931Z",
       "title": "Fido Friday! Special Dog Adoption Event",
       "body": "**Join us for a very special Fido Friday hosted by Sunny Paws Rescue from 4-7. Meet adorable dogs and puppies that are in need of a good, loving home.**"
-    },
-    {
-      "date": "2024-06-23T16:00:17.873Z",
-      "title": "Artisan Pig Food Truck from 12-5",
-      "body": "[Artisan Pig](https://www.facebook.com/theartisanpig) Food Truck from 12-5"
     },
     {
       "date": "2024-06-16T15:00:18.204Z",
@@ -438,6 +335,11 @@
       "date": "2024-06-29T20:00:45.955Z",
       "title": "50's Night Special Live Music with \"Daddy O.\"",
       "body": "Join us for a special live music event featuring the 50's Rockabilly band; Daddy O. from 4-7. Bring your classic car and we will waive the $5 cover charge at the door! All ages are welcome. Dogs allowed outside."
+    },
+    {
+      "date": "2024-06-22T20:00:03.080Z",
+      "title": "By The Bloom Pop-Up Store",
+      "body": "By The Bloom Flower Farm is hosting a build-your-own bouquet Bloom Bar from 4-7!"
     }
   ]
 }
