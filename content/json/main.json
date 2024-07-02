@@ -1,8 +1,8 @@
 {
   "images": [
     {
-      "tasting_image": "/img/tasting-room-verticle.jpg",
-      "wine_image": "/img/nick-pouring-wine.jpg",
+      "tasting_image": "/img/tasting-room-verticle-cropped.jpg",
+      "wine_image": "/img/nick-pouring-wine-cropped.jpg",
       "events_image": "/img/jessi-kenney-cropped.jpg",
       "experience_image": "/img/picnic-cropped.png"
     }
