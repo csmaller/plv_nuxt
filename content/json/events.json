@@ -1,98 +1,6 @@
 {
   "events": [
     {
-      "date": "2024-07-04T16:00:07.952Z",
-      "body": "**Join us for a 4th of July Celebration at Nasketucket Bay Vineyard. We are open from 12-4. Live music by Butch McCarthy & The Gents from 12-3. Food Trucks: BBQ Y Mas and Sorbae Frozen Treats from 12-4. All ages are welcome. $10 cover charge at the door per person.**",
-      "title": "4th Of July Celebration!",
-      "payment_link": ""
-    },
-    {
-      "date": "2024-07-05T19:00:00.000Z",
-      "title": "Fido Fridays & Travelers On Tour",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-7.*\n\n**Today's Food Truck: [Travelers On Tour](https://www.facebook.com/profile.php?id=100085405684555)**"
-    },
-    {
-      "date": "2024-07-06T18:00:08.902Z",
-      "title": "Travelers on Tour Food Truck from 2-7",
-      "body": "[Travelers On Tour](https://www.facebook.com/profile.php?id=100085405684555) Food Truck from 2-7"
-    },
-    {
-      "date": "2024-07-07T16:00:09.223Z",
-      "title": "Live Music from 2-5: Chip Allen & Katie",
-      "body": "Live Music from 2-5: [Chip Allen](https://www.facebook.com/ChipAllenMusic) & Katie"
-    },
-    {
-      "date": "2024-07-07T16:00:09.454Z",
-      "title": "Cousins Maine Lobster Food Truck from 12-5 ",
-      "body": "[Cousin's Maine Lobster](https://www.facebook.com/CMLBoston) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-07-12T19:00:09.645Z",
-      "title": "Fido Fridays & The Filling Station Food Truck ",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck:** [The Filling Station](https://www.facebook.com/TFSfoodtruck) Food Truck"
-    },
-    {
-      "date": "2024-07-13T17:30:09.870Z",
-      "title": "No Joke Smoke Food Truck from 1:30-6:30",
-      "body": "[No Joke Smoke](https://www.facebook.com/nojokesmokebbq) Food truck from 1:30-6:30"
-    },
-    {
-      "date": "2024-07-14T18:00:10.167Z",
-      "title": "Live Music from 2-5: Wine Country",
-      "body": "[Wine Country](https://www.facebook.com/profile.php?id=61556214308586) band from 2-5"
-    },
-    {
-      "date": "2024-07-14T16:00:10.392Z",
-      "title": "Travelers on Tour Food Truck from 12-5",
-      "body": "[Travelers on Tour](https://www.facebook.com/profile.php?id=100085405684555) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-07-19T19:00:10.633Z",
-      "title": "Fido Fridays & Travelers On Tour Food Truck ",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck: [Travelers On Tour ](https://www.facebook.com/profile.php?id=100085405684555)from 3-7**"
-    },
-    {
-      "date": "2024-07-21T18:00:30.098Z",
-      "title": "Live Music from 2-5: Jackson Neves",
-      "body": "Live Music from 2-5: [Jackson Neves](https://www.facebook.com/jacksonnevesmusic)"
-    },
-    {
-      "date": "2024-07-21T16:00:30.298Z",
-      "title": "The Filling Station Food Truck from 12-5",
-      "body": "[The Filling Station](https://www.facebook.com/TFSfoodtruck) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-07-26T19:00:30.508Z",
-      "title": "Fido Fridays & Gonzalez Food Truck ",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck: [Gonzalez Food Truck](https://www.facebook.com/foodtruckgonzalez) from 3-8**"
-    },
-    {
-      "date": "2024-07-27T18:00:30.906Z",
-      "title": "Raffa Chimi's Food Truck from 2-7",
-      "body": "[Raffa Chimi's](https://www.facebook.com/raffachimis) Food Truck from 2-7"
-    },
-    {
-      "date": "2024-07-28T18:00:31.180Z",
-      "title": "Live Music from 2-5: Mike McHugh",
-      "body": "Live Music from 2-5: [Mike McHugh](https://www.facebook.com/McHughMusic81)"
-    },
-    {
-      "date": "2024-07-28T16:00:24.807Z",
-      "title": "Travelers on Tour Food Truck from 12-5",
-      "body": "[Travelers on Tour](https://www.facebook.com/profile.php?id=100085405684555) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-06-06T22:00:43.750Z",
-      "title": "Maker Session - Burlap Wreath",
-      "payment_link": "https://www.eventbrite.com/e/maker-session-burlap-wreath-tickets-884208981867",
-      "body": "Maker Sessions at Nasketucket Bay Vineyard are an opportunity to let your creative juices flow, every other Thursday night. Learn a new craft, taught by a local artisan while you sip wine and create your very own masterpiece to take home! This week's Maker's Session is a 16” Burlap Welcome Wreath, hosted by Jamie from J&P Wreaths. Tickets are $60 per person and include all materials needed to create your work of art that you can take home.  Wine and food are not included in the ticket price. No outside food or drink is allowed. Wine, drink specials and specialty food items are available to purchase in the vineyard farm store to nosh on during your class."
-    },
-    {
-      "date": "2024-06-15T20:00:00.455Z",
-      "title": "SPECIAL MUSIC EVENT - Acoustic Nation",
-      "body": "Nasketucket Bay Vineyard's very own Nick Christy is getting the band back together for a special live music performance by Acoustic Nation! $5 cover charge from 3:30-7."
-    },
-    {
       "date": "2024-08-02T19:00:38.906Z",
       "title": "Fido Fridays & Phoenix On The Fly Food Truck",
       "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck: [Phoenix On the Fly](https://www.facebook.com/profile.php?id=100063697864255) from 3-8**"
@@ -178,72 +86,10 @@
       "body": "[Cousin's Maine Lobster](https://www.facebook.com/CMLBoston) Food Truck from *1:30-6:30*"
     },
     {
-      "date": "2024-06-20T22:00:05.907Z",
-      "title": "Maker Session - Sea Glass Resin Art",
-      "payment_link": "https://www.eventbrite.com/e/maker-session-sea-glass-resin-art-tickets-906075976637",
-      "body": "Maker Sessions at Nasketucket Bay Vineyard are an opportunity to let your creative juices flow, every other Thursday night. Learn a new craft, taught by a local artisan while you sip wine and create your very own masterpiece to take home! This week's Maker's Session is an 8x10 sea glass resin art piece, hosted by Tracy at Resin Galore & More. Tickets are $60 per person and include all materials needed to create your work of art that you can take home.  Wine and food are not included in the ticket price. No outside food or drink is allowed. Wine, drink specials and specialty food items are available to purchase in the vineyard farm store to nosh on during your class. PLEASE NOTE: This particular art medium requires 24 hours to cure before you can bring it home. Art projects can be picked up at the vineyard the following day or any day that weekend."
-    },
-    {
-      "date": "2024-06-22T14:00:36.313Z",
-      "title": "Weights & Wine w/Ashley Kelley",
-      "payment_link": "https://www.eventbrite.com/e/weights-and-wine-tickets-920221285637?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl",
-      "body": "Welcome to **Weights and Wine**! Join us for a fun morning of fitness and relaxation at **Nasketucket Bay Vineyard**. Get ready to break a sweat with a high-energy workout, followed by a well-deserved glass of wine. This is the perfect opportunity to unwind, socialize, and treat yourself after a challenging workout. Don't miss out on this unique event that combines fitness and fun in a beautiful setting. Grab your workout gear and get ready to lift, sip, and enjoy!"
-    },
-    {
-      "date": "2024-07-11T22:00:49.656Z",
-      "title": "Maker Session - Charcuterie Board Class w/Cindy from Savor the Spread, Marion",
-      "payment_link": "https://www.eventbrite.com/e/maker-session-at-nasketucket-bay-vineyard-charcuterie-board-class-tickets-934488960637",
-      "body": "Maker Sessions at Nasketucket Bay Vineyard are an opportunity to let your creative juices flow, every other Thursday night. Learn a new craft, taught by a local artisan while you sip wine and create your very own masterpiece to take home! This Maker Session is a 10\" round charcuterie board, hosted by Cindy Servais from Savor the Spread in Marion! Tickets are $60 per person and include all materials needed to create your charcuterie that you can take home or enjoy at the vineyard! Wine and additional food are not included in the ticket price. No outside food or drink is allowed. Wine, drink specials, mock-tails and specialty food items are available to purchase in the vineyard farm store to nosh on during your class!\n\nThis is an all-ages event. Tickets must be purchased in advance."
-    },
-    {
-      "date": "2024-06-29T14:00:04.108Z",
-      "payment_link": "https://www.eventbrite.com/e/yoga-by-the-vines-at-nasketucket-bay-vineyard-with-christine-noonan-tickets-921686167137",
-      "body": "Enjoy an outdoor yoga class, set in the picturesque background of Nasketucket Bay Vineyard!\n\nThe yoga class, led by Christine Noonan, is designed for all levels, including beginners. After you move and breathe in the fresh air and sunshine, sip on a glass of wine while you stroll the vineyard or relax on the patio. Bring a yoga mat or towel, water, sunscreen, and anything else you need for your practice. Pre-registration required. All ages are welcome!\n\nMust be 21 to drink alcohol but mock-tails are available!",
-      "title": "Yoga by the Vines with Christine Noonan"
-    },
-    {
-      "date": "2024-07-27T14:00:04.656Z",
-      "title": "Yoga By The Vines with Christine Noonan",
-      "body": "Enjoy an outdoor yoga class, set in the picturesque background of Nasketucket Bay Vineyard!\n\nThe yoga class, led by Christine Noonan, is designed for all levels, including beginners. After you move and breathe in the fresh air and sunshine, sip on a glass of wine while you stroll the vineyard or relax on the patio. Bring a yoga mat or towel, water, sunscreen, and anything else you need for your practice. Pre-registration required. All ages are welcome!\n\nMust be 21 to drink alcohol but mock-tails are available!",
-      "payment_link": "https://www.eventbrite.com/e/yoga-by-the-vines-at-nasketucket-bay-vineyard-with-christine-noonan-tickets-921729125627"
-    },
-    {
       "date": "2024-08-24T14:00:05.087Z",
       "title": "Yoga by the Vines with Christine Noonan",
       "payment_link": "https://www.eventbrite.com/e/yoga-by-the-vines-at-nasketucket-bay-vineyard-with-christine-noonan-tickets-921729747487",
       "body": "Enjoy an outdoor yoga class, set in the picturesque background of Nasketucket Bay Vineyard!\n\nThe yoga class, led by Christine Noonan, is designed for all levels, including beginners. After you move and breathe in the fresh air and sunshine, sip on a glass of wine while you stroll the vineyard or relax on the patio. Bring a yoga mat or towel, water, sunscreen, and anything else you need for your practice. Pre-registration required. All ages are welcome!\n\nMust be 21 to drink alcohol but mock-tails are available!"
-    },
-    {
-      "date": "2024-07-25T22:00:09.889Z",
-      "title": "Maker Session - Paint Night",
-      "payment_link": "https://www.eventbrite.com/e/maker-session-at-nasketucket-bay-vineyard-paint-night-tickets-922449690857",
-      "body": "Maker Sessions at Nasketucket Bay Vineyard are an opportunity to let your creative juices flow, every other Thursday night. Learn a new craft, taught by a local artisan while you sip wine and create your very own masterpiece to take home! This week's Maker's Session is a seaside-themed painting taught by Jenny Laurie. Tickets do not include food and drink. Wine, wine cocktails or non-alcoholic mocktails are available for purchase before and during the class as well as a variety of locally sourced cheeses, crackers, meats, snacks that you can nosh on while you paint! This is an all ages event and tickets must be purchased in advance to attend."
-    },
-    {
-      "date": "2024-07-14T22:00:25.536Z",
-      "title": "Wine & Cheese Pairing Class with Missa Capozzo",
-      "payment_link": "https://www.eventbrite.com/e/wine-cheese-pairing-experience-at-nasketucket-bay-vineyard-tickets-919519125457?aff=oddtdtcreator&fbclid=IwZXh0bgNhZW0CMTAAAR3MO0njzmyMz9c1AqIzv8EfeVjA41H_pmYe8uWqfFv0Jjw92om0lu4vLkM_aem_elAtooepnOjRWkD4zbreLg",
-      "body": "Join us for an enchanting journey as we invite you to a captivating wine and cheese pairing experience at Nasketucket Bay Vineyard in Fairhaven, MA! Led by Wine Educator Missa Capozzo of Wine Down Events, this 90-minute event promises to tantalize your taste buds and expand your knowledge of wine and food pairing.\n\nThe evening will include:\n\n🍇 A guided pairing featuring five exquisite Nasketucket Bay Vineyard wines.\\\n🍰 A delectable variety of expertly paired cheeses by local dairy farm *Smith's Country Cheese* to complement the flavors of the wines and elevate your tasting experience.\\\n🎓 Insightful guidance from your wine educator as she shares the fundamentals of wine and food pairing, providing valuable tips and tricks to enhance your enjoyment of both wine and food.\n\nJoin us for an unforgettable evening of indulgence and education amidst the scenic beauty of Nasketucket Bay Vineyard. Whether you're a wine enthusiast or a novice explorer, this experience promises something special for everyone.\\\n\\\nFeel free to arrive early to enjoy the vineyard and purchase a glass of wine to enjoy prior to the event.\\\n\\\nThis is a 21+ event. Please note there are no refunds."
-    },
-    {
-      "date": "2024-06-29T20:00:45.955Z",
-      "title": "50's Night Special Live Music with \"Daddy O.\"",
-      "body": "Join us for a special live music event featuring the 50's Rockabilly band; Daddy O. from 4-7. Bring your classic car and we will waive the $5 cover charge at the door! All ages are welcome. Dogs allowed outside."
-    },
-    {
-      "date": "2024-06-23T18:30:05.166Z",
-      "title": "Travelers On Tour Food Truck 2:30-5",
-      "body": "[Travelers On Tour](https://www.facebook.com/profile.php?id=100085405684555) Food Truck from 2:30-5"
-    },
-    {
-      "date": "2024-06-22T20:00:54.892Z",
-      "title": "By The Bloom Pop Up Bloom Bar",
-      "body": "Build your own flower bouquet at the By The Bloom Flower Farm Bloom Bar!"
-    },
-    {
-      "date": "2024-07-13T20:00:38.648Z",
-      "title": "LIVE MUSIC - Last Day on Earth",
-      "body": "Live music by [Last Day On Earth](https://vimeo.com/829260232) Band from 4-7. $5 cover charge at door. Dogs allowed outside. All ages welcome."
     },
     {
       "date": "2024-08-24T20:00:36.757Z",
@@ -369,11 +215,6 @@
       "body": "Food Truck from 12-5: [The Artisan Pig ](https://www.facebook.com/theartisanpig)Pizza"
     },
     {
-      "date": "2024-07-20T20:00:46.219Z",
-      "title": "Bloom Bar - By The Bloom pop-up from 4-7",
-      "body": "Build your own fresh cut flower bouquet hosted by [By The Bloom ](https://bythebloom.com/)Flower Farm and Flower Company in Rochester."
-    },
-    {
       "date": "2024-09-28T22:30:12.504Z",
       "title": "Comedy Night - A 21+ Event",
       "payment_link": "https://www.eventbrite.com/e/next-stop-comedy-at-nasketucket-bay-vineyard-fairhaven-ma-tickets-946572964217?aff=Brewery",
@@ -402,11 +243,6 @@
       "title": "Maker Session - Sea Glass Succulent w/These Two Crafty Chicks",
       "body": "Maker Sessions at Nasketucket Bay Vineyard are an opportunity to let your creative juices flow, every other Thursday night. Learn a new craft, taught by a local artisan while you sip wine and create your very own masterpiece to take home! This Maker Session is a sea glass succulent piece hosted by [These Two Craft Chicks](https://www.facebook.com/thesetwocraftychicks)! Wine and food are not included in the ticket price. No outside food or drink is allowed. Wine, drink specials, mock-tails and specialty food items are available to purchase in the vineyard farm store to nosh on during your class!",
       "payment_link": "https://www.eventbrite.com/e/sea-glass-succulent-maker-session-at-nasketucket-bay-vineyard-tickets-948266559807"
-    },
-    {
-      "date": "2024-07-26T21:00:51.831Z",
-      "title": "Rosé Release Party!",
-      "body": "We are celebrating the first new wine being added to our menu since we opened in April! Come Fly With Me Rosé is here and we can't wait to share it with you! Enjoy music from Italian piano player, Marco Marinelli while you sip on your rosé and sample food offerings from our store. Make sure you wear pink to get your free rosé sample and snag an Instagram-worthy photo in our photo wreath on your way in! No tickets, reservations or cover charge. All ages, and dogs welcome on the patio."
     },
     {
       "date": "2024-08-02T20:00:11.904Z",
