@@ -15,7 +15,7 @@ export const links = {
   ],
   events: [
     { label: 'EVENTS CALENDAR', url: '/events#calendar' },
-    { label: 'PRIVATE EVENTS', url: '/events#private' },
+    // { label: 'PRIVATE EVENTS', url: '/events#private' },
     { label: 'CORPORATE EVENTS', url: '/events#corporate' },
   ],
   contact: [
