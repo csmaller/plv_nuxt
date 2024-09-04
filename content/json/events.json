@@ -1,105 +1,9 @@
 {
   "events": [
     {
-      "date": "2024-08-02T19:00:38.906Z",
-      "title": "Fido Fridays & Phoenix On The Fly Food Truck",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck: [Phoenix On the Fly](https://www.facebook.com/profile.php?id=100063697864255) from 3-8**"
-    },
-    {
-      "date": "2024-08-03T17:30:55.133Z",
-      "title": "Gonzalez Food Truck from 1:30-6:30",
-      "body": "[Gonzalez Food Truck](https://www.facebook.com/foodtruckgonzalez) from *1:30-6:30*"
-    },
-    {
-      "date": "2024-08-04T18:00:55.695Z",
-      "title": "Live Music from 2-5: Beth Barron",
-      "body": "Live music from 2-5: [Beth Barron](https://www.facebook.com/beth.barron.54)"
-    },
-    {
-      "date": "2024-08-04T16:00:56.214Z",
-      "title": "Raffa Chimi's Food Truck from 12-5",
-      "body": "[Raffa Chimi's](https://www.facebook.com/raffachimis) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-08-09T19:00:56.722Z",
-      "title": "Fido Fridays & Artisan Pig Food Truck",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck: [Artisan Pig](https://www.facebook.com/theartisanpig) from** *3-8*"
-    },
-    {
-      "date": "2024-08-10T17:30:57.232Z",
-      "title": "No Joke Smoke BBQ Food Truck from 1:30-6:30",
-      "body": "[No Joke Smoke BBQ](https://www.facebook.com/nojokesmokebbq) Food Truck from *1:30-6:30*"
-    },
-    {
-      "date": "2024-08-11T18:00:57.719Z",
-      "title": "Live Music from 2-5: Robert Chandler",
-      "body": "Live Music from 2-5: [Robert Chandler](https://www.facebook.com/robert.chandler.18847)"
-    },
-    {
-      "date": "2024-08-11T16:00:58.207Z",
-      "title": "Phoenix on the Fly Food Truck from 12-5",
-      "body": "[Phoenix on the Fly](https://www.facebook.com/profile.php?id=100063697864255) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-08-16T19:00:58.702Z",
-      "title": "Fido Friday",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion.* \n\n*The scheduled food truck for this date cancelled.*"
-    },
-    {
-      "date": "2024-08-17T20:00:59.199Z",
-      "title": "Gonzalez Food Truck from 4-8",
-      "body": "[Gonzalez Food Truck ](https://www.facebook.com/foodtruckgonzalez)from *4-8*"
-    },
-    {
-      "date": "2024-08-18T18:00:59.647Z",
-      "title": "Live Music from 2-5: Jessi Kenney",
-      "body": "Live Music from 2-5: [Jessi Kenney](https://www.facebook.com/jessikenneymusic)"
-    },
-    {
-      "date": "2024-08-18T16:00:00.167Z",
-      "title": "Phoenix on the Fly Food Truck from 12-5",
-      "body": "[Phoenix on the Fly](https://www.facebook.com/profile.php?id=100063697864255) Food Truck from 12-5"
-    },
-    {
-      "date": "2024-08-25T16:00:01.531Z",
-      "title": "The Filling Station Food Truck from 12-5",
-      "body": "[The Filling Station ](https://www.facebook.com/TFSfoodtruck)Food Truck from 12-5"
-    },
-    {
-      "date": "2024-08-25T18:00:52.400Z",
-      "title": "Live Music from 2-5: Butch McCarthy",
-      "body": "Live Music from 2-5: [Butch McCarthy](https://www.facebook.com/butch.mccarthy)"
-    },
-    {
-      "date": "2024-08-30T19:00:52.756Z",
-      "title": "Fido Fridays & Lawless Food Truck ",
-      "body": "**Fridays are for Fido, Food Trucks and Flight Specials!**\n\n*Our 4-legged friends are welcome on the patio or green spaces. 15% off wine flights and 15% off \"barkuterie\" boards from our store for your furry companion. The food truck will be pumping out delicious eats from 3-8.*\n\n**Today's Food Truck: [Lawless Food Truck](https://www.facebook.com/lawlessfoodma) from** ***3-8***"
-    },
-    {
-      "date": "2024-08-31T17:30:53.062Z",
-      "title": "Cousins Maine Lobster Food Truck from 1:30-6:30",
-      "body": "[Cousin's Maine Lobster](https://www.facebook.com/CMLBoston) Food Truck from *1:30-6:30*"
-    },
-    {
-      "date": "2024-08-24T14:00:05.087Z",
-      "title": "Yoga by the Vines with Christine Noonan",
-      "payment_link": "https://www.eventbrite.com/e/yoga-by-the-vines-at-nasketucket-bay-vineyard-with-christine-noonan-tickets-921729747487",
-      "body": "Enjoy an outdoor yoga class, set in the picturesque background of Nasketucket Bay Vineyard!\n\nThe yoga class, led by Christine Noonan, is designed for all levels, including beginners. After you move and breathe in the fresh air and sunshine, sip on a glass of wine while you stroll the vineyard or relax on the patio. Bring a yoga mat or towel, water, sunscreen, and anything else you need for your practice. Pre-registration required. All ages are welcome!\n\nMust be 21 to drink alcohol but mock-tails are available!"
-    },
-    {
-      "date": "2024-08-24T20:00:36.757Z",
-      "title": "LIVE MUSIC - The Ramblin' Band",
-      "body": "Live music by [The Ramblin' Band](https://theramblinband.com/) from 4-7. $5 cover charge at door. Dogs allowed outside. All ages welcome."
-    },
-    {
       "date": "2024-09-07T20:00:50.383Z",
       "title": "SPECIAL LIVE MUSIC - Last Day On Earth",
       "body": "Live Music with Last Day On Earth Band from 4-7. $5 cover at the door. All ages welcome. Dogs allowed outside."
-    },
-    {
-      "date": "2024-08-10T20:00:52.167Z",
-      "title": "SPECIAL LIVE MUSIC - Vineyard House Band, Acoustic Nation 4-7",
-      "body": "Live music by the vineyard owners' house band, Acoustic Nation from 4-7!\n\n$5 cover charge at the door. All ages welcome and dogs allowed outside."
     },
     {
       "date": "2024-09-01T18:00:48.486Z",
@@ -118,15 +22,9 @@
       "payment_link": "https://www.eventbrite.com/e/wine-glass-painting-maker-session-at-nasketucket-bay-vineyard-tickets-969008710137"
     },
     {
-      "date": "2024-08-08T22:00:51.759Z",
-      "title": "Maker Session: Tree of Life Wreath",
-      "body": "Maker Sessions at Nasketucket Bay Vineyard are an opportunity to let your creative juices flow, every other Thursday night. Learn a new craft, taught by a local artisan while you sip wine and create your very own masterpiece to take home! This Maker Session is a Tree of Life wreath hosted by Andrea Babbin! Wine and additional food are not included in the ticket price. No outside food or drink is allowed. Wine, drink specials, mock-tails and specialty food items are available to purchase in the vineyard farm store to nosh on during your class!\n\nThis is an all-ages event. Tickets must be purchased in advance.",
-      "payment_link": "https://www.eventbrite.com/e/maker-sessions-at-nasketucket-bay-vineyard-tree-of-life-wreath-tickets-945184862367"
-    },
-    {
-      "date": "2024-09-06T19:00:52.665Z",
-      "title": "Newport Chowder Company Food Truck from 3-8",
-      "body": "[Newport Chowder Company](https://www.facebook.com/NewportChowderCompany) food truck from 3-8"
+      "date": "2024-09-07T20:00:52.665Z",
+      "title": "Newport Chowder Company Food Truck from 4-7",
+      "body": "[Newport Chowder Company](https://www.facebook.com/NewportChowderCompany) food truck from 4-7"
     },
     {
       "date": "2024-09-07T20:00:16.280Z",
