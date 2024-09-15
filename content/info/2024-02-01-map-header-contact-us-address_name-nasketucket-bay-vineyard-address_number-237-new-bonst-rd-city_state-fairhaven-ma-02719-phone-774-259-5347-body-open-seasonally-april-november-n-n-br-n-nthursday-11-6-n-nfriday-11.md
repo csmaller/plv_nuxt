@@ -6,7 +6,7 @@ city_state: Fairhaven, MA 02719
 phone: 774-425-2123
 email: info@peacelovevino.net
 ---
-Open Seasonally April - November
+Open Seasonally April - December
 
 <br/>
 
