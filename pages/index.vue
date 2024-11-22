@@ -25,6 +25,7 @@ const doToast = async () => {
 
 <template>
   <div class="home grid w-full">
+    <Banner />
     <HomeImages />
     <div class="col hidden sm:hidden lg:flex"></div>
     <Divider link="about" />
