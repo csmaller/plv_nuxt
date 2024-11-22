@@ -8,7 +8,7 @@ public_folder: /img
 
 collections:
   - name: 'news'
-    label: 'News'
+    label: 'Banners'
     folder: 'content/news'
     format: 'frontmatter'
     create: true
