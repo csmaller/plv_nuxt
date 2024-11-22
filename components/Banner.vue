@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: bannerQuery } = await useAsyncData('news', () => {
-  return queryContent('news')
+const { data: bannerQuery } = await useAsyncData('banners', () => {
+  return queryContent('banners')
     .where({ title: { $eq: 'banner' } })
     .find();
 });

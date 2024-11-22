@@ -7,9 +7,9 @@ media_folder: /public/img
 public_folder: /img
 
 collections:
-  - name: 'news'
+  - name: 'banners'
     label: 'Banners'
-    folder: 'content/news'
+    folder: 'content/banners'
     format: 'frontmatter'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
