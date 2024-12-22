@@ -8,12 +8,4 @@ email: info@peacelovevino.net
 ---
 Open Seasonally April - December
 
-<br/>
-
-Thursday 11-6
-
-Friday 11-8
-
-Saturday 11-8
-
-Sunday 11-6
+We are currently closed for the season and will return in April!
